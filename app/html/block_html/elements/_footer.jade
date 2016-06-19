@@ -1,0 +1,54 @@
+//footer
+.footer-wraper
+	.main-cont
+		.footer
+			.footer__el
+				.footer__logo
+					img(src="img/logo-cscart.png", alt="")
+				.footer__logo
+					img(src="img/logo-bitrix.png", alt="")
+			.footer__el
+				.footer__title УЛУГИ
+				- var footerLink = ['IT - разработка','SMM маркетинг','Консалтинг'];
+				each item in footerLink
+					a(href="#").footer__link #{item}
+			.footer__el
+				.footer__title УЛУГИ
+				- var footerLink = ['Web-ресурсы','Приложения','CRM управление продажами и персоналом'];
+				each item in footerLink
+					a(href="#").footer__link #{item}
+			.footer__el
+				.footer__title УЛУГИ
+				- var footerLink = ['Принципы работы','Наша команда','Наша география'];
+				each item in footerLink
+					a(href="#").footer__link #{item}
+			.footer__el
+				.footer__title УЛУГИ
+				- var footerLink = ['Айтишники говорят','Проектирование и дизайн','Маркетинг'];
+				each item in footerLink
+					a(href="#").footer__link #{item}
+			.footer__el
+				.footer__phone 
+					.icon.icon-phone-square
+					a(href="#") +7(900)-666-55-77
+				.footer__mail
+					.icon.icon-envelope
+					a(href="#") email@yandex.ru
+				.footer__soc
+
+					a(href="#")
+						.icon.icon-vk
+					a(href="#")
+						.icon.icon-facebook
+					a(href="#")
+						.icon.icon-twitter
+
+
+
+
+
+
+
+
+
+
