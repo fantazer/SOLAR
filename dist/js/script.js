@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".but").click(function(){$(".price").show(),$(".cont").hide()})});
+$(document).ready(function(){var n=function(n,o){$(n).click(function(n){n.stopPropagation(),$(o).slideToggle("fast")}),$(o).on("click",function(n){n.stopPropagation()}),$(document).on("click",function(){$(o).hide()})};n(".top-menu__bar",".top-menu-order"),n(".top-menu__bar",".top-menu__sub"),$(".section-main").parallax()});

@@ -1,15 +1,28 @@
 .header 
+	+below(768px)
+		padding 5px 0px
 	padding 15px 0px
 	position relative
 .header__top 
+	+below(768px)
+		padding-bottom 5px
 	flex(between)
-	padding-bottom 15px
-//.header__logo 
+.header__logo
+	+below(768px)
+		width 60%
 //.header-contact 
 .header-contact
-	padding-bottom 10px
+	+below(768px)
+		fw()
+		.icon
+			font-size 12px
 	flex(between) 
-.header-contact__phone 
+.header-contact__phone
+	+below(768px)
+		width 100% 
+		justify-content flex-end
+		margin-right 10px
+		margin-bottom 5px
 	up()
 	f()
 	align-items center
@@ -17,21 +30,37 @@
 	.icon
 		margin-right 10px
 .header-contact__email 
+	+below(768px)
+		width 100%
+		justify-content flex-end
+		margin-right 10px
 	f()
 	up()
 	align-items center
 	.icon
 		margin-right 10px
 .header-slogan
+	+below(768px)
+		display none
 	color #b2acf1
 	font-size 31px
 	font-weight 400
 	up()
 .top-menu
 	background dark
+	position relative
+	.main-cont
+		z-index 100
 .top-menu__wraper
+	+below(768px)
+		display block
+	
 	flex(between)
 .top-menu__el
+	+below(768px)
+		width 100%
+		display block
+		background grey 
 	flex-grow 1
 	flex(mid)
 	& > a
@@ -46,6 +75,10 @@
 			background grey
 	
 .top-menu__sub
+	+below(768px)
+		position initial
+		display block
+		background dark 
 	position absolute
 	left 0
 	top 100%
@@ -64,6 +97,8 @@
 		.top-menu__sub
 			display block!important
 .top-menu__bar
+	+below(768px)
+		display none!important
 	cp()
 	height 100%
 	position relative
@@ -72,6 +107,7 @@
 	text-align center
 	padding 12px 0px
 .top-menu-order
+
 	position absolute
 	right 0
 	top 100%
@@ -107,3 +143,27 @@
 	flex(mid)
 	.but
 		width 80%
+		
+.top-menu-order__time
+	+below(1200px)
+		display none
+.top-menu-order__cont
+	+below(1200px)
+		width 100%
+.section-main__title
+	+below(768px)
+		display none 
+.top-menu__toggle
+	+below(768px)
+		flex(mid)
+		font-size 24px
+		padding 10px
+		justify-content flex-end
+		background dark!important 
+	display none
+.top-menu__cont
+	+below(768px)
+		display none
+		width 100%
+	position absolute
+	top 100%

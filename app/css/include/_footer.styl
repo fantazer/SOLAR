@@ -1,4 +1,7 @@
+
 .footer-wraper
+	+below(768px)
+		padding 0
 	background dark
 	margin-top auto
 	position relative
@@ -7,6 +10,8 @@
 	f()
 	align-items flex-start
 .footer__el
+	+below(768px)
+		flex-flow row
 	flex-grow 1
 	padding 10px
 	flex(mid)
@@ -39,6 +44,10 @@
 		margin-top -2.5px
 		left -15px  
 .footer__phone
+	+below(768px)
+		margin-bottom 0
+		margin-right 10px
+		font-size 10px
 	f()
 	align-items center
 	margin-bottom 15px
@@ -47,6 +56,10 @@
 		margin-right 10px
 		color purp
 .footer__mail
+	+below(768px)
+		font-size 10px
+		margin-bottom 0
+		margin-right 5px
 	f()
 	align-items center
 	margin-bottom 15px
@@ -57,6 +70,10 @@
 .footer__soc
 	f()
 	a
+		+below(768px)
+			width 25px
+			height 25px
+			margin 5px
 		flex(mid)
 		round() 
 		width 40px
@@ -64,5 +81,20 @@
 		background purp
 		margin 5px 10px
 	.icon
+		+below(768px)
+			font-size 12px
 		color dark
 	
+.footer-logo__content
+	+below(1200px)
+		display none
+
+.footer__el
+	+below(768px)
+		display none
+.footer__contact
+	+below(768px)
+		.icon
+			font-size 12px
+		width 100%
+		display flex !important

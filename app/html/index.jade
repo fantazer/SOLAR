@@ -5,18 +5,12 @@ body
 	include block_html/elements/_const.jade
 	.section.section-main
 		.rows.layer(data-depth="0.04")
+
 		include block_html/elements/_header.jade
-		.rows-cont
-			.planet-wraper
-				.planet-el.planet-audit.layer(data-depth="0.05") аудит
-				.planet-el.planet-smm.layer(data-depth="0.08") SMM
-				.planet-el.planet-seo.layer(data-depth="0.14") SEO
-				.planet-el.planet-web.layer(data-depth="0.12") web
-		.main-cont.section-main__title
-			.planet-title-waper.layer(data-depth="0.05")
-				.planet-title__el сайты для решения ваших задач
-				.planet-title__el.planet-title__el--small быстро и надежно
+
+		include block_html/elements/_b-paralax.jade
 
 		include block_html/elements/_footer.jade
+		
 //Include footer
 include ./block_html/_script.jade

@@ -1,4 +1,3 @@
-
 var gulp = require("gulp");
 var autoprefixer = require('gulp-autoprefixer');
 var useref = require('gulp-useref');
@@ -178,15 +177,21 @@ gulp.task('make', function () {
       .pipe(gulpif('*.css', minifyCss()))
       .pipe(assets.restore())
       .pipe(useref())
-      .pipe(prettify({
-        'unformatted': ['pre', 'code'],
-        'indent_with_tabs': true,
-        'preserve_newlines': true,
-        'brace_style': 'expand',
-        'end_with_newline': true
-      }))
       .pipe(gulp.dest('dist'));
 });
+
+// beauty html
+gulp.task('beauty',function(){
+  return gulp.src('app/*.html')
+    .pipe(prettify({
+            'unformatted': ['pre', 'code'],
+            'indent_with_tabs': true,
+            'preserve_newlines': true,
+            'brace_style': 'expand',
+            'end_with_newline': true
+      }))
+     .pipe(gulp.dest('dist'));
+})
 
 //Ftp
 gulp.task( 'ftp', function() {
@@ -202,7 +207,6 @@ gulp.task( 'ftp', function() {
         'dist/*.html'
     ];
    return gulp.src(globs)
-        .pipe( conn.newer( 'httpdocs/one.web-kuznetcov.ru/'+ftpConf.name) )
         .pipe( conn.dest( 'httpdocs/one.web-kuznetcov.ru/'+ftpConf.name) );
 
 } );
@@ -212,8 +216,8 @@ gulp.task('serve', function () {
     browserSync.init({
         notify: false,
         reloadDelay: 300,
-        tunnel: true,
-        tunnel: "webpage",
+        //tunnel: true,
+        //tunnel: "webpage",
         server: {
             baseDir: "app/",
         }
@@ -258,10 +262,10 @@ gulp.task('img',['imagePng' , 'imageJpg']);
 gulp.task('default',['see','serve'] );
 
 gulp.task('build',function(){
-    runSequence('copy:font','prefix','img','make')
+    runSequence('copy:font','prefix','img','make','beauty')
 });
 gulp.task('build-ftp',function(){
-  runSequence('copy:font','prefix','img','make','ftp')
+  runSequence('copy:font','prefix','img','make','beauty','ftp')
 });
 
 //gulp.task('fast-build',['stylus','prefix','jade','copy:js','ftp']);

@@ -1,0 +1,149 @@
+.rows-cont
+	position relative
+	height 100%
+.planet-el
+	+below(768px)
+		position initial!important
+		margin 40px 5px
+		width 60px
+		height 60px
+		font-size 14px
+	flex(mid)
+	round()
+	up()
+	tr(all)
+	display flex !important
+	font-size 20px
+	position absolute
+	height 90px
+	width 90px
+	background purp
+	font-weight 700
+	&:hover
+		background darken(purp,20)
+		cursor pointer
+.planet-audit
+	+below(lg)
+		left 165px!important
+	left 365px!important
+	top 95px!important
+.planet-smm
+	+below(lg)
+		left 380px!important
+	left 580px!important
+	top 70px!important
+.planet-seo
+	+below(lg)
+		left 380px!important
+	left 580px!important
+	top 270px!important
+.planet-web
+	+below(lg)
+		left 590px!important
+	left 790px!important
+	top 240px!important
+.section-main__title
+	position relative
+.planet-wraper
+	+below(768px)
+		flex(mid)
+	width 100%
+.planet-title-waper
+	+below(768px)
+		width 100%
+		text-align center
+	width 60%
+	position absolute!important
+	left initial!important
+	right 0px!important
+	top -230px !important
+	text-align right
+	height 100%
+.planet-title__el
+	+below(768px)
+		font-size 28px
+	font-size 60px
+	font-weight 400
+	text-transform uppercase
+.planet-title__el--small
+	+below(768px)
+		font-size 18px
+	font-size 40px
+	font-weight 100
+	text-transform uppercase
+
+.reset-position
+	+below(768px)
+		margin 10px
+	position initial!important
+	margin 40px 30px
+.planet-wraper--mid
+	flex(mid)
+
+.planet-content
+	display none
+.planet-content__el
+	f()
+.planet-content__smm-el 
+	+below('md')
+		width 100%
+	+below(768px)
+		height 200px
+		margin-top 20px
+	fl()
+	flex(mid)
+	tr(all)
+	height 260px
+	background grey
+	padding 5%
+	background-color #1f2e43
+	&:hover
+		background-color #243650
+		.icon
+			color purp
+	.icon
+		tr(all)
+		font-size 60px
+		margin-bottom 20px 
+//.planet-content__smm-icon 
+.planet-content__smm-info 
+	font-size 20px
+	font-weight 700
+	text-transform uppercase
+
+.planet-content__seo-el
+	+below('md')
+		width 100%
+	+below(768px)
+		height 200px
+		margin-top 20px
+		img
+			width 60px!important
+	fl()
+	flex(mid)
+	tr(all)
+	height 280px
+	justify-content flex-start
+	//width 25%
+	background grey
+	padding 7% 3%
+	background-color #1f2e43
+	&:hover
+		background-color #243650
+		.planet-content__seo-title
+			color purp
+	.icon
+		tr(all)
+		font-size 60px
+		margin-bottom 20px 
+.planet-content__seo-icon
+	margin-bottom 20px
+.planet-content__seo-title
+	tr(all)
+	up()
+	font-size 18px
+	text-align center
+	height 50px 
+.planet-content__seo-info
+	text-align center
+	width 70%

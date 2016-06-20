@@ -29,6 +29,26 @@ $(document).ready(function(){
 			$(this).find('.top-menu__sub').css('opacity',1).show().animate({opacity:0},200);
 		}
 	)*/
+	//animate planet
+	$('.planet-el').click(function(){
+		$('.planet-el').addClass('reset-position');
+		$('.planet-wraper').addClass('main-cont');
+		$('.planet-wraper').addClass('planet-wraper--mid');
+		$('.rows-cont').css('height','auto');
+		$('.section-main__title').hide();
+
+		$scene.parallax('disable');
+
+		var typePlanet = $(this).data('type');
+		$('.planet-content').each(function(){
+			$(this).hide();
+			if ($(this).data('module')== typePlanet) {
+				$(this).show();
+			};
+		})
+
+	})
+
 	/* ###### For SlideToggle Elements  ######*/
 	var hideToggle = function(targetClick,toggleEl) {
 		$(targetClick).click(function(event){
@@ -46,10 +66,60 @@ $(document).ready(function(){
 	//toggle top menu
 	hideToggle('.top-menu__bar','.top-menu-order');
 	hideToggle('.top-menu__bar','.top-menu__sub');
+	hideToggle('.top-menu__toggle','.top-menu__cont');
 
 	//Paralax
-	$('.section-main').parallax();
+	var $scene = $('.section-main').parallax();
 
+	//Slider fore planet
+	$(".planet-content__seo,.planet-content__web").owlCarousel({
+			 	responsive : {
+			 		0:{
+					 	items : 1
+				 	},
+				 	768:{
+					 	items : 2
+				 	},
+				 	960:{
+					 	items : 2
+				 	},
+				 	1200:{
+					 	items : 4
+				 	},
+				 	
+			  },
+			 	autoHeight : true,
+			 	pagination : false,
+			 	autoplay : true,
+			 	singleItem:true,
+			 	nav:true,
+					navText:['<div class="icon icon-angle-left"></div>','<div class="icon icon-angle-right"></div>']
+			 	}
+	);
+	$(".planet-content__smm").owlCarousel({
+			 	responsive : {
+			 		0:{
+					 	items : 1
+				 	},
+				 	768:{
+					 	items : 2
+				 	},
+				 	960:{
+					 	items : 2
+				 	},
+				 	1200:{
+					 	items : 5
+				 	},
+				 	
+			  },
+			 	autoHeight : true,
+			 	pagination : false,
+			 	autoplay : true,
+			 	singleItem:true,
+			 	nav:true,
+					navText:['<div class="icon icon-angle-left"></div>','<div class="icon icon-angle-right"></div>']
+			 	}
+	); 
 	/* ###### init EasyDropDown style for selects  ######*/
 	/* ###### bower i easydropdown  ######*/
 	/*<select class="dropdown"> add class (dropdown)
@@ -165,6 +235,7 @@ $(document).ready(function(){
 	//			right -5%
 	//
 
+	
 	/* ###### init validate form  ######*/
 	/* ###### bower i jquery-validation ######*/
 	/*$('#myform').validate({
