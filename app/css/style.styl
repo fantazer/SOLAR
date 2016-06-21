@@ -23,12 +23,15 @@ body
 	font-family PT Sans
 	color white
 	overflow-x hidden
+	bgi('main-bg.jpg')
+	background-size cover
 a
 	color white
 .main-cont
 	center(1200px)
 	position relative
 	width 100%
+	padding  0 10px
 	+above(1200px)
 		width 1200px
 .section-main
@@ -36,11 +39,9 @@ a
 		overflow-y auto
 	f()
 	fl() 
-	bgi('main-bg.jpg')
 	overflow hidden
 	width 100%
 	height 100vh
-	background-size cover
 	position relative
 .rows
 	+below(lg)
@@ -64,9 +65,60 @@ a
 	.icon
 		font-size 64px
 .owl-prev
-	left 2%
+	+below(768px)
+		left -5%
+	left 1%
 .owl-next
-	right 2%
+	+below(768px)
+		right -5%
+	right 1%
+	
+//.fluid 
+.fluid__el
+	+below(768px)
+		width 100%
+		fl()
+	f()
+	border 1px solid purp
+	margin-bottom 20px
+	br(4px)
+	width 60%
+.fluid__row
+	&:nth-child(2)
+		flex(mid)
+	&:nth-child(3)
+		f()
+		justify-content flex-end
+	&:nth-child(4)
+		flex(mid)
+	&:nth-child(6)
+		flex(mid)
+	&:nth-child(7)
+		f()
+		justify-content flex-end
+.fluid__number 
+	text-align center
+	font-size 110px
+	line-height 90px
+	padding 10px 30px 
+.fluid__info 
+	padding 20px
+	background pink-dark 
+.fluid__title
+	font-size 24px
+	font-weight 700
+.owl-dots
+	width 100%
+	flex(mid)
+	margin-top 10px
+.owl-dot
+	round()
+	margin 5px
+	width 10px
+	height 10px
+	background white
+.owl-dot.active
+	background #322f40
 	
 
 /* -------------- style for header --------------*/
@@ -78,3 +130,14 @@ a
 /* -------------- style for b-paralax --------------*/
 @import "include/_b-paralax.styl"
 
+/* -------------- style for b-paralax --------------*/
+@import "include/_p-promotion.styl"
+
+/* -------------- style for b-work --------------*/
+@import "include/_b-work.styl"
+
+/* -------------- style for b-work --------------*/
+@import "include/_b-form.styl"
+
+/* -------------- style for primer-work --------------*/
+@import "include/_b-primer-work.styl"

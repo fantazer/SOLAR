@@ -35,23 +35,28 @@
 			<!--top-menu-->
 			<div class="top-menu">
 				<div class="main-cont">
-					<div class="top-menu__wraper">
-						<div class="top-menu__el top-menu__service"> <a href="#">услуги</a>
-							<!--sub-menu-->
-							<div class="top-menu__sub"><a href="#">Создание нового сайта</a><a href="#">Разработка Web-приложений</a><a href="#">Поддержка сайтов</a><a href="#">Срочная реанимация сайта</a><a href="#">Бизнес в социальных сетях</a><a href="#">Консалтинг</a><a href="#">Продвижение в интернет</a></div>
+					<div class="top-menu__cont">
+						<div class="top-menu__wraper">
+							<div class="top-menu__el top-menu__service"> <a href="#">услуги</a>
+								<!--sub-menu-->
+								<div class="top-menu__sub"><a href="#">Создание нового сайта</a><a href="#">Разработка Web-приложений</a><a href="#">Поддержка сайтов</a><a href="#">Срочная реанимация сайта</a><a href="#">Бизнес в социальных сетях</a><a href="#">Консалтинг</a><a href="#">Продвижение в интернет</a></div>
+							</div>
+							<div class="top-menu__el"><a href="#">портфолио</a></div>
+							<div class="top-menu__el"><a href="#">контакты</a></div>
+							<div class="top-menu__el"><a href="#">статьи</a></div>
+							<div class="top-menu__el"><a href="#">сделать заказ</a></div>
+							<div class="top-menu__el top-menu__bar">
+								<div class="icon-bars"></div>
+							</div>
 						</div>
-						<div class="top-menu__el"><a href="#">портфолио</a></div>
-						<div class="top-menu__el"><a href="#">контакты</a></div>
-						<div class="top-menu__el"><a href="#">статьи</a></div>
-						<div class="top-menu__el"><a href="#">сделать заказ</a></div>
-						<div class="top-menu__el top-menu__bar">
-							<div class="icon-bars"></div>
-						</div>
+					</div>
+					<div class="top-menu__el top-menu__toggle">
+						<div class="icon-bars"></div>
 					</div>
 					<!--sub-menu-->
 					<div class="top-menu-order">
 						<div class="top-menu-order__info">
-							<div class="top-menu-order__el">
+							<div class="top-menu-order__el top-menu-order__cont">
 								<div class="top-menu-order__row">
 									<div class="top-menu-order__name">Телефон:</div>
 									<div class="top-menu-order__val">+7(900)666-55-77</div>
@@ -65,7 +70,7 @@
 									<div class="top-menu-order__val">г. Пермь, ул.Мира д. 71, офис 22</div>
 								</div>
 							</div>
-							<div class="top-menu-order__el">
+							<div class="top-menu-order__el top-menu-order__time">
 								<div class="top-menu-order__row">
 									<div class="top-menu-order__name">Режим работы:</div>
 									<div class="top-menu-order__val"></div>
@@ -87,11 +92,68 @@
 			</div>
 		</div>
 		<div class="rows-cont">
-			<div class="planet-wraper">
-				<div data-depth="0.05" class="planet-el planet-audit layer">аудит</div>
-				<div data-depth="0.08" class="planet-el planet-smm layer">SMM</div>
-				<div data-depth="0.14" class="planet-el planet-seo layer">SEO</div>
-				<div data-depth="0.12" class="planet-el planet-web layer">web</div>
+			<div class="planet-wraper"><a href="#" data-depth="0.05" data-type="audit" class="planet-el planet-audit layer">аудит</a>
+				<div data-depth="0.08" data-type="smm" class="planet-el planet-smm layer">SMM</div>
+				<div data-depth="0.14" data-type="seo" class="planet-el planet-seo layer">SEO</div>
+				<div data-depth="0.12" data-type="web" class="planet-el planet-web layer">web</div>
+			</div>
+		</div>
+		<div class="main-cont">
+			<div data-module="smm" class="planet-content">
+				<div class="planet-content__el planet-content__smm owl-carousel"><a href="#" class="planet-content__smm-el">
+						<div class="planet-content__smm-icon">
+							<div class="icon icon-vk"></div>
+						</div>
+						<div class="planet-content__smm-info">в контакте</div></a><a href="#" class="planet-content__smm-el">
+						<div class="planet-content__smm-icon">
+							<div class="icon icon-facebook"></div>
+						</div>
+						<div class="planet-content__smm-info">facebook</div></a><a href="#" class="planet-content__smm-el">
+						<div class="planet-content__smm-icon">
+							<div class="icon icon-twitter"></div>
+						</div>
+						<div class="planet-content__smm-info">twitter</div></a><a href="#" class="planet-content__smm-el">
+						<div class="planet-content__smm-icon">
+							<div class="icon icon-instagram"></div>
+						</div>
+						<div class="planet-content__smm-info">instagram</div></a><a href="#" class="planet-content__smm-el">
+						<div class="planet-content__smm-icon">
+							<div class="icon icon-odnoklassniki"></div>
+						</div>
+						<div class="planet-content__smm-info">одноклассники</div></a>
+				</div>
+			</div>
+			<div data-module="seo" class="planet-content">
+				<div class="planet-content__el planet-content__seo owl-carousel"><a href="#" class="planet-content__seo-el">
+						<div class="planet-content__seo-icon"><img src="img/icon-seo-1.png" alt=""/></div>
+						<div class="planet-content__seo-title">оптимизация молодых сайтов</div>
+						<div class="planet-content__seo-info">Настроим ваш сайт для успешного продвижения в поисковых системах</div></a><a href="#" class="planet-content__seo-el">
+						<div class="planet-content__seo-icon"><img src="img/icon-seo-2.png" alt=""/></div>
+						<div class="planet-content__seo-title">аудит сайта</div>
+						<div class="planet-content__seo-info">Изучим ваш сайт вдоль и поперек, дадим рекоминдации по продвижению</div></a><a href="#" class="planet-content__seo-el">
+						<div class="planet-content__seo-icon"><img src="img/icon-seo-3.png" alt=""/></div>
+						<div class="planet-content__seo-title">продвижение сайтов</div>
+						<div class="planet-content__seo-info">Поможем сайту привлечь максимальное количество клиентов из поисковых систем</div></a><a href="#" class="planet-content__seo-el">
+						<div class="planet-content__seo-icon"><img src="img/icon-seo-4.png" alt=""/></div>
+						<div class="planet-content__seo-title">составление семантического ядра</div>
+						<div class="planet-content__seo-info">Сопровождение проекта, постоянный сбор данных и настройки под пользователя</div></a>
+				</div>
+			</div>
+			<div data-module="web" class="planet-content">
+				<div class="planet-content__el planet-content__web owl-carousel"><a href="#" class="planet-content__seo-el">
+						<div class="planet-content__seo-icon"><img src="img/icon-web-1.png" alt=""/></div>
+						<div class="planet-content__seo-title">Новый сайт</div>
+						<div class="planet-content__seo-info">Проанализировав потребности ваших клиентов, подберем необходимое решение</div></a><a href="#" class="planet-content__seo-el">
+						<div class="planet-content__seo-icon"><img src="img/icon-web-2.png" alt=""/></div>
+						<div class="planet-content__seo-title">web приложение</div>
+						<div class="planet-content__seo-info">Разработка Web - инструментов для вашего бизнеса</div></a><a href="#" class="planet-content__seo-el">
+						<div class="planet-content__seo-icon"><img src="img/icon-web-3.png" alt=""/></div>
+						<div class="planet-content__seo-title">срочная реанимация</div>
+						<div class="planet-content__seo-info">Срочная помощь &quot;старому-доброму&quot; сайту, выявление и устранение неполадок</div></a><a href="#" class="planet-content__seo-el">
+						<div class="planet-content__seo-icon"><img src="img/icon-web-4.png" alt=""/></div>
+						<div class="planet-content__seo-title">техническая поддержка</div>
+						<div class="planet-content__seo-info">Постоянное  сопровождение ресурса, поддержка работоспособности, исключение сбоев в работе</div></a>
+				</div>
 			</div>
 		</div>
 		<div class="main-cont section-main__title">
@@ -104,7 +166,7 @@
 		<div class="footer-wraper">
 			<div class="main-cont">
 				<div class="footer">
-					<div class="footer__el">
+					<div class="footer__el footer-logo__content">
 						<div class="footer__logo"><img src="img/logo-cscart.png" alt=""/></div>
 						<div class="footer__logo"><img src="img/logo-bitrix.png" alt=""/></div>
 					</div>
@@ -120,7 +182,7 @@
 					<div class="footer__el">
 						<div class="footer__title">УЛУГИ</div><a href="#" class="footer__link">Айтишники говорят</a><a href="#" class="footer__link">Проектирование и дизайн</a><a href="#" class="footer__link">Маркетинг</a>
 					</div>
-					<div class="footer__el">
+					<div class="footer__el footer__contact">
 						<div class="footer__phone"> 
 							<div class="icon icon-phone-square"></div><a href="#">+7(900)-666-55-77</a>
 						</div>

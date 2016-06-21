@@ -49,6 +49,7 @@
 .top-menu
 	background dark
 	position relative
+	margin-top 10px
 	.main-cont
 		z-index 100
 .top-menu__wraper
@@ -162,8 +163,10 @@
 		background dark!important 
 	display none
 .top-menu__cont
+	+above(768px)
+		display block!important
 	+below(768px)
 		display none
 		width 100%
-	position absolute
-	top 100%
+		position absolute
+		top 100%

@@ -1,4 +1,9 @@
 {
   "main-footer":"footer",
-  "paralax-block":"b-paralax"
+  "paralax-block":"b-paralax",
+  "work-block":"b-work",
+  "page-promotion":"p-promotion",
+  "form-block":"b-form",
+  "work templates":"b-primer-work"
+  
 }

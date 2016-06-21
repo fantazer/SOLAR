@@ -1,0 +1,9 @@
+.main-cont
+	.section.section--dark
+		.title Как построенна работа над сайтом
+		.work
+			- each item in work
+				.work__el
+					.work__img
+						div(class='#{item.img}')
+					.work__info #{item.text}

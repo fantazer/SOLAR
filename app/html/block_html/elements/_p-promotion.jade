@@ -1,0 +1,32 @@
+.main-cont
+	.section
+		.title Продивижение в Internet
+		//promotion-slider
+		.promotion-slider.owl-carousel
+			- each item in seo 
+				a(href="#").promotion-slider__el
+					.promotion-slider__img
+						img(src="img/#{item.img}", alt="")
+					.promotion-slider__info
+						.promotion-slider__title #{item.title}
+						.promotion-slider__text #{item.text}
+	//Sheme
+	.section.section--dark
+		.title Схема продвижения в сети
+		.fluid
+			- each item in promotion
+				.fluid__row
+					.fluid__el
+						.fluid__number #{item.number}
+						.fluid__info
+							.fluid__title #{item.title}
+							.fluid__text #{item.text}
+	//Specialist
+	.section
+		.title Какие специальисты будут работать над Вашим «проектом»
+		.people
+			- each item in people
+				.people__el
+					.people__img
+						div(class="#{item.img}")
+					.people__text #{item.text}

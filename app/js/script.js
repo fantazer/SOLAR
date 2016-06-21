@@ -71,6 +71,49 @@ $(document).ready(function(){
 	//Paralax
 	var $scene = $('.section-main').parallax();
 
+	//Slider default
+	function defaultSlider(sliderClass) {
+	    var slider = $(sliderClass);
+	      slider.owlCarousel({
+	      		items : 1,
+	      	 	autoHeight : true,
+	      	 	dots: false,
+	      	 	autoPlay : false,
+	      	 	singleItem:true,
+	      	 	nav:true,
+	      			navText:['<div class="icon icon-angle-left"></div>','<div class="icon icon-angle-right"></div>']
+	      	}
+	   );
+	}
+	//Slider mobile
+	function mobileSlider(resolution,sliderClass) {
+	    var checkWidth = $(window).width();
+	    var slider = $(sliderClass);
+	    if (checkWidth > resolution - 1) {
+	      slider.trigger('destroy.owl.carousel'); 
+	      slider.removeClass('owl-carousel');
+	    } else if (checkWidth < resolution) {
+	    	slider.addClass('owl-carousel')
+	      slider.owlCarousel({
+	        items : 1,
+				 	autoHeight : true,
+				 	autoplay : true,
+				 	singleItem:true
+	      });
+	    }
+	  }
+	//
+	$(window).resize(function(){
+			mobileSlider(768,'.people');
+			mobileSlider(768,'.fluid');
+		}
+	);
+	mobileSlider(768,'.fluid');
+	mobileSlider(768,'.people');
+	
+	defaultSlider('.promotion-slider');
+
+
 	//Slider fore planet
 	$(".planet-content__seo,.planet-content__web").owlCarousel({
 			 	responsive : {
@@ -89,7 +132,7 @@ $(document).ready(function(){
 				 	
 			  },
 			 	autoHeight : true,
-			 	pagination : false,
+			 	dots: false,
 			 	autoplay : true,
 			 	singleItem:true,
 			 	nav:true,
@@ -110,16 +153,42 @@ $(document).ready(function(){
 				 	1200:{
 					 	items : 5
 				 	},
-				 	
 			  },
 			 	autoHeight : true,
-			 	pagination : false,
+			 	dots: false,
 			 	autoplay : true,
 			 	singleItem:true,
 			 	nav:true,
 					navText:['<div class="icon icon-angle-left"></div>','<div class="icon icon-angle-right"></div>']
 			 	}
-	); 
+	);
+
+	//Work-template
+	$(".work-template").owlCarousel({
+			 	responsive : {
+			 		0:{
+					 	items : 1
+				 	},
+				 	768:{
+					 	items : 2
+				 	},
+				 	960:{
+					 	items : 2
+				 	},
+				 	1200:{
+					 	items : 3
+				 	},
+			  },
+			  margin:50,
+			 	autoHeight : true,
+			 	dots: true,
+			 	autoplay : true,
+			 	singleItem:true
+			 }
+			 
+	);
+
+	
 	/* ###### init EasyDropDown style for selects  ######*/
 	/* ###### bower i easydropdown  ######*/
 	/*<select class="dropdown"> add class (dropdown)
@@ -214,7 +283,7 @@ $(document).ready(function(){
 	//		  },
 	//  	margin:50,
 	//  	autoHeight : true,
-	//  	pagination : false,
+	//  	dots: false,
 	//  	autoplay : true,
 	//  	singleItem:true,
 	//  	nav:true,

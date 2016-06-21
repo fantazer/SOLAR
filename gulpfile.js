@@ -25,6 +25,7 @@ var progeny = require('gulp-progeny');
 var filter = require('gulp-filter');
 var fs = require('fs');
 var prettify = require('gulp-prettify');
+var combineMq = require('gulp-combine-mq');
 
 
 // ########## make img ###############
@@ -166,8 +167,11 @@ gulp.task('make', function () {
   .pipe(uglify())
   .pipe(gulp.dest('dist/js/'));
 
-   gulp.src('app/css/style.css')
-  .pipe(minifyCss())
+  gulp.src('app/css/style.css')
+  //.pipe(minifyCss())
+  .pipe(combineMq({
+          beautify: true
+  }))
   .pipe(gulp.dest('dist/css/'));
   return gulp.src('app/*.html')
       .pipe(cache('make'))
@@ -203,11 +207,11 @@ gulp.task( 'ftp', function() {
         parallel: 21,
     } );
     var globs = [
-        'dist/**',
-        'dist/*.html'
+        'dist/**/**.*'
     ];
-   return gulp.src(globs)
-        .pipe( conn.dest( 'httpdocs/one.web-kuznetcov.ru/'+ftpConf.name) );
+   return gulp.src(globs, {buffer: true})
+        .pipe( conn.newer( 'httpdocs/one.web-kuznetcov.ru/'+ftpConf.name))
+        .pipe( conn.dest( 'httpdocs/one.web-kuznetcov.ru/'+ftpConf.name));
 
 } );
 
@@ -262,7 +266,7 @@ gulp.task('img',['imagePng' , 'imageJpg']);
 gulp.task('default',['see','serve'] );
 
 gulp.task('build',function(){
-    runSequence('copy:font','prefix','img','make','beauty')
+    runSequence('copy:font','prefix','img','beauty','make')
 });
 gulp.task('build-ftp',function(){
   runSequence('copy:font','prefix','img','make','beauty','ftp')

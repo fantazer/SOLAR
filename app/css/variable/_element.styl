@@ -26,6 +26,33 @@
 	background pink
 	&:hover
 		background darken(pink,10)
-	
+.title
+	+below(768px)
+		font-size 20px
+		text-align center
+	font-size 30px
+	margin-bottom 24px
+.title--lg
+	+below(768px)
+		text-align center
+		font-size 28px
+	up()
+	font-size 40px
+	font-weight 700
+	margin-bottom 20px
+.section
+	+below(768px)
+		padding 20px
+	padding 30px 40px
+	background purp 
+	margin-bottom 20px
+	background-size cover
+.section--dark
+	background purp-dark
+input
+	padding 8px 15px
+	br(4px)
+	border 0px
+
 	
 	
