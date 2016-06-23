@@ -1,0 +1,13 @@
+//kind-aplication
+.main-cont
+	.section
+		.title Каие бывают сайты
+		.syte-type
+			- each item in kindSite
+				.syte-type__el
+					.syte-type__img 
+						img(src="img/#{item.img}", alt="")
+					.syte-type__info
+						.syte-type__title #{item.title}
+						.syte-type__text #{item.text}
+

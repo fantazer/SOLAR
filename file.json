@@ -4,6 +4,13 @@
   "work-block":"b-work",
   "page-promotion":"p-promotion",
   "form-block":"b-form",
-  "work templates":"b-primer-work"
-  
+  "work templates":"b-primer-work",
+  "kind-aplication":"b-kind-aplication",
+  "fluid-rows-block":"b-fluid",
+  "list-specialists":"b-specialist",
+  "other-service":"b-other-service",
+  "map":"b-map",
+  "partners":"b-partners",
+  "create site":"b-kind-site",
+  "repair site":"b-repair"
 }

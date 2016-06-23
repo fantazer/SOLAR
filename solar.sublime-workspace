@@ -1,0 +1,1889 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"iocn",
+				"dist/img/icon-seo-1.png"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"flex",
+				"flex-flow"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"ove",
+				"overflow	styl"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"pos",
+				"position	styl"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"sli",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"brdr",
+				"border-radius	styl"
+			],
+			[
+				"option",
+				"option"
+			],
+			[
+				"referral",
+				"referral_code"
+			],
+			[
+				"FREE",
+				"FREE_BOOKINGS_FOR_RECIPIENT"
+			],
+			[
+				"free_bookin",
+				"free_bookings_remaining"
+			],
+			[
+				"free_booking",
+				"free_bookings_credit_used"
+			],
+			[
+				"free_bookings",
+				"free_bookings_remaining"
+			],
+			[
+				"bus",
+				"bus_registration_number"
+			],
+			[
+				"last",
+				"last_bus_stop_departure_time"
+			],
+			[
+				"alighting",
+				"alighting_bus_stop_id"
+			],
+			[
+				"board",
+				"boarding_bus_stop_id"
+			],
+			[
+				"boarding_bus",
+				"boarding_bus_stop_name"
+			],
+			[
+				"prev",
+				"previous_path"
+			],
+			[
+				"crossed",
+				"crossed_bus_stop"
+			],
+			[
+				"current",
+				"current_bus"
+			],
+			[
+				"depar",
+				"departure_time"
+			],
+			[
+				"regi",
+				"registration_number"
+			],
+			[
+				"boarding",
+				"boarding_bus_stop_id"
+			],
+			[
+				"paths",
+				"paths_on_route"
+			],
+			[
+				"destin",
+				"destination_path"
+			],
+			[
+				"source",
+				"source_path"
+			],
+			[
+				"avail",
+				"available"
+			],
+			[
+				"last_bus",
+				"last_bus_stop_path"
+			],
+			[
+				"last_bus_stop",
+				"last_bus_stop_id"
+			],
+			[
+				"update",
+				"update_firebase_entry_for_trip"
+			],
+			[
+				"aligh",
+				"alighting_bus_stop_id"
+			],
+			[
+				"aut",
+				"authenticate_bus_with_token"
+			],
+			[
+				"walki",
+				"walking_directions_to_bus_stop"
+			],
+			[
+				"boardin",
+				"boarding_bus_stop"
+			],
+			[
+				"walking",
+				"walking_direction_from_bus_stop"
+			],
+			[
+				"walk",
+				"walking_direction_from_bus_stop"
+			],
+			[
+				"source_bus",
+				"source_bus_stop_path"
+			],
+			[
+				"destination",
+				"destination"
+			],
+			[
+				"trips",
+				"trips_with_availability"
+			],
+			[
+				"max",
+				"max_occupancy"
+			],
+			[
+				"total",
+				"total_deboarded"
+			],
+			[
+				"alight",
+				"alighting_bus_stop_id"
+			],
+			[
+				"alig",
+				"alighting_bus_stop_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/web/SOLAR/app/html/aplication.jade",
+			"settings":
+			{
+				"buffer_size": 683,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/SOLAR/app/html/block_html/elements/_b-partners.jade",
+			"settings":
+			{
+				"buffer_size": 184,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/SOLAR/app/html/block_html/elements/_b-fluid.jade",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 296.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime tuto",
+				"Sublime Tutor: Start"
+			],
+			[
+				"sublimegit",
+				"SublimeGit: Version"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"fine key ",
+				"FindKeyConflicts: All Key Maps to Quick Panel"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install packae",
+				"Package Control: Install Package"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"synta",
+				"Set Syntax: Diff"
+			],
+			[
+				"git diff",
+				"Git: Diff"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"pretty ",
+				"Pretty Ruby: Format"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"packageinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax git diff",
+				"Set Syntax: SublimeGit Diff"
+			],
+			[
+				"syntax",
+				"Set Syntax: Diff"
+			],
+			[
+				"git b lame",
+				"Git: Blame"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"removepac",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"package remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"syntax diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"syntax ",
+				"Set Syntax: Diff"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax:diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"syntax git",
+				"Set Syntax: SublimeGit Diff"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"gst",
+				"Git: Status"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 263.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"subprocess.Popen([executable_path, './Tutorial'], cwd='/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/')",
+			"subprocess.Popen([executable_path, './'], cwd='/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/')",
+			"subprocess([executable_path, './'], cwd='/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/')",
+			"executable_path",
+			"executable_path = app_path+\"Contents/SharedSupport/bin/subl\"",
+			"app_path = executable_path[:executable_path.rfind(\".app/\")+5]",
+			"executable_path = sublime.executable_path()",
+			"subprocess.Popen(['pwd'])",
+			"import subprocess",
+			"sublime.active_window().run_command(\"sublime_tutor_new_window\")",
+			"sublime.active_window().run_command",
+			"sublime.active_window()",
+			"sublime.executable_path()",
+			"subliem.executable_path()",
+			"executable_path[:executable_path.rfind(\".app/\")+5] + \"Contents/SharedSupport/bin/subl\"",
+			"executable_path[:executable_path.rfind(\".app/\")+5]",
+			"executable_path = sublime.executable_path()",
+			"sublime.executable_path().executable_path[:executable_path.rfind(\".app/\")+5]",
+			"executable_path[:executable_path.rfind(\".app/\")+5]",
+			"sublime.executable_path()",
+			"sublime.log_commands(False)",
+			"sublime.open_project",
+			"window.open_project",
+			"window.open_file",
+			"view.run_command(\"select_by_index\")",
+			"window.run_command(\"select_by_index\")",
+			"sublime.select_by_index",
+			"view.run_command(\"example\")",
+			"sublime.run_command(\"example\")",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/web/SOLAR",
+		"/C/web/SOLAR/app",
+		"/C/web/SOLAR/app/css",
+		"/C/web/SOLAR/app/css/include",
+		"/C/web/SOLAR/app/css/variable",
+		"/C/web/SOLAR/app/html",
+		"/C/web/SOLAR/app/html/block_html",
+		"/C/web/SOLAR/app/html/block_html/elements",
+		"/C/web/SOLAR/app/js",
+		"/C/web/SOLAR/dist",
+		"/C/web/SOLAR/node_modules",
+		"/C/web/SOLAR/node_modules/gulp-stylus",
+		"/C/web/SOLAR/node_modules/gulp-stylus/test",
+		"/C/web/SOLAR/node_modules/gulp-stylus/test/fixtures",
+		"/C/web/SOLAR/node_modules/gulp-stylus/test/fixtures/includes"
+	],
+	"file_history":
+	[
+		"/C/web/SOLAR/app/css/include/_b-partners.styl",
+		"/C/Users/fantzer/AppData/Local/Temp/scp12520/httpdocs/damage-help.ru/wp-content/themes/AAK/index.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp18755/httpdocs/damage-help.ru/wp-content/themes/AAK/header.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp16293/httpdocs/damage-help.ru/wp-content/themes/AAK/header-small.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp17147/httpdocs/damage-help.ru/wp-content/themes/AAK/page_service.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp17574/httpdocs/damage-help.ru/wp-content/themes/AAK/page_price.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp17979/httpdocs/damage-help.ru/wp-content/themes/AAK/page_allservice.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp17231/httpdocs/damage-help.ru/wp-content/themes/AAK/page_contact.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp17595/httpdocs/damage-help.ru/wp-content/themes/AAK/page.php",
+		"/C/web/SOLAR/app/css/include/_b-fluid.styl",
+		"/C/web/SOLAR/app/css/style.styl",
+		"/C/web/SOLAR/app/html/fakts.jade",
+		"/C/web/SOLAR/app/js/script.js",
+		"/C/web/SOLAR/app/css/include/_b-map.styl",
+		"/C/Users/fantzer/AppData/Local/Temp/scp16169/httpdocs/damage-help.ru/wp-content/themes/AAK/footer.php",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-form.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-map.jade",
+		"/C/web/SOLAR/file.json",
+		"/C/web/SOLAR/app/css/include/_header.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-fluid.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_const.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-paralax.jade",
+		"/C/web/SOLAR/app/html/aplication.jade",
+		"/C/web/SOLAR/app/css/include/_b-specialist.styl",
+		"/C/web/SOLAR/gulpfile.js",
+		"/C/web/SOLAR/app/css/include/_b-other-service.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-other-service.jade",
+		"/C/web/SOLAR/node_modules/gulp-stylus/test/fixtures/includes/header.styl",
+		"/C/Web/STEND/frontend/app/css/variable/_function.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-primer-work.jade",
+		"/C/web/SOLAR/app/html/promotion.jade",
+		"/C/web/SOLAR/app/css/include/_p-promotion.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-specialist.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_p-promotion.jade",
+		"/C/web/SOLAR/app/css/include/_b-kind-aplication.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-kind-aplication.jade",
+		"/C/web/SOLAR/app/css/style.css",
+		"/C/web/SOLAR/app/css/include/_b-primer-work.styl",
+		"/C/web/SOLAR/app/css/variable/_element.styl",
+		"/C/web/SOLAR/app/css/variable/_constant.styl",
+		"/C/Users/fantzer/AppData/Local/Temp/scp20210/index.php",
+		"/c/users/fantzer/appdata/local/temp/TouchSwipe.js",
+		"/c/users/fantzer/appdata/local/temp/owl-style.styl",
+		"/c/users/fantzer/appdata/local/temp/owl-carousel.js",
+		"/C/Users/fantzer/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/fantzer/AppData/Roaming/Sublime Text 3/Packages/Gist/Default (Windows).sublime-keymap",
+		"/C/web/SOLAR/app/css/include/_b-form.styl",
+		"/C/web/SOLAR/app/promotion.html",
+		"/C/web/SOLAR/app/css/include/_b-work.styl",
+		"/C/web/SOLAR/app/html/index.jade",
+		"/C/Web/STEND/frontend/app/js/script.js",
+		"/C/Users/fantzer/AppData/Local/Temp/scp48484/httpdocs/slider/slider.php",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-work.jade",
+		"/C/web/SOLAR/app/css/include/_footer.styl",
+		"/C/web/SOLAR/dist/css/style.css",
+		"/C/web/SOLAR/app/css/variable/_function.styl",
+		"/C/web/SOLAR/app/css/variable/_default.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_footer.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_header.jade",
+		"/C/web/SOLAR/dist/index.html",
+		"/C/web/STEND/frontend/app/css/style.styl",
+		"/C/web/STEND/frontend/gulpfile.js",
+		"/C/web/SOLAR/app/css/include/_b-paralax.styl",
+		"/C/web/SOLAR/app/html/block_html/_script.jade",
+		"/C/web/SOLAR/app/html/block_html/_style.jade",
+		"/C/web/SOLAR/app/bower/flexbox-grid-stylus/resources/jade/includes/footer.jade",
+		"/C/web/SOLAR/app/index.html",
+		"/C/web/SOLAR/app/css/icon/style.styl",
+		"/C/web/SOLAR/dist/js/combined.js",
+		"/C/Users/fantzer/AppData/Local/Temp/_mc_/mc_2E2D.tmp/styles.css",
+		"/C/web/SOLAR/app/html/block_html/elements/__b-paralax.jade",
+		"/C/Web/NOODLES/gulpfile.js",
+		"/C/web/SOLAR/app/html/page.jade",
+		"/C/Web/STEND/frontend/gulpfile.js",
+		"/C/Web/NOODLES/dist/js/combined.js",
+		"/C/Users/fantzer/AppData/Local/Temp/scp35999/httpdocs/slider/slider.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp15778/httpdocs/local/templates/kennet/js/script_main.js",
+		"/C/Users/fantzer/AppData/Local/Temp/scp12478/httpdocs/local/components/kennet/ken.schedule/templates/.default/template.php",
+		"/C/Users/fantzer/AppData/Local/Temp/scp14123/httpdocs/local/components/kennet/ken.schedule/component.php",
+		"/C/OpenServer/domains/lms.itexpert.ru/templates/jac-lmr/css/css3.css",
+		"/C/Users/fantzer/AppData/Local/Temp/scp14843/public_html/templates/jac-lmr/css/css3.css",
+		"/C/web/SOLAR/app/bower/parallax/deploy/parallax.min.js",
+		"/C/Users/fantzer/AppData/Local/Temp/Rar$DIa0.376/parallax.min.js",
+		"/C/Users/fantzer/AppData/Roaming/Sublime Text 3/Packages/FuzzyFilePath/Default (Windows).sublime-keymap",
+		"/C/web/SOLAR/app/img/logo-big.png",
+		"/C/web/SOLAR/app/bower/components-font-awesome/scss/_path.scss",
+		"/C/Users/fantzer/AppData/Local/Temp/scp50344/httpdocs/damage-help.ru/wp-content/themes/AAK/css/style.css",
+		"/C/Users/fantzer/AppData/Local/Temp/scp48420/httpdocs/damage-help.ru/wp-content/themes/AAK/footer.php",
+		"/C/Users/fantzer/Desktop/SOLAR",
+		"/C/Users/fantzer/AppData/Local/Temp/scp14172/httpdocs/damage-help.ru/wp-content/themes/AAK/index.php",
+		"/C/web/SOLAR/dist/helper.html",
+		"/C/web/SOLAR/dist/page.html",
+		"/C/web/SOLAR/dist/allpage.html",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_15.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/README.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_9.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_13.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_12.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_11.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_8.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_7.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_6.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_5.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_4.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/code/chapter_1.rb",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_1.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_1.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/tutorial.sublime-completions",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/README.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_6.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_14.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/contents.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4_1.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/code/chapter_1.rb",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_2.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_3.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_4.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_6.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_5.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/contents.md",
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_7.md"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/jai/go/src/github.com/mattermost/platform",
+			"/Users/jai/Workspace/trevo/",
+			"/Users/jai/Workspace/trevo/app/admin",
+			"app/admin",
+			"",
+			"/Users/jai/Workspace/trevo/",
+			"/Users/jai/Workspace/trevo/railsbox",
+			"/Users/jai/Workspace/trevo/",
+			"/Users/jai/Workspace/trevo/app/serializers",
+			"/Users/jai/Workspace/trevo/",
+			"/Users/jai/Workspace/trevo/railsbox/ansible",
+			"/Users/jai/Workspace/market_place_api",
+			"",
+			"/Users/jai/Workspace/trevo/railsbox/",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/db/migrate",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app/views/scheduled_mails",
+			"",
+			"You might find this helpful:",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/config",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad",
+			"",
+			"/Users/jai/Workspace/talentpad/app/",
+			"/Users/jai/Workspace/talentpad/app/assets",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/client/.tmp/*",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/client/.tmp/*",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/client/.tmp/*",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/client/.tmp/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/public/client",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/client,-/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/,-/Users/jai/Workspace/talentpad/public",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client/",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/app/assets/stylesheets/244809",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client/",
+			"/Users/jai/Workspace/talentpad/client/app/angular",
+			"/Users/jai/Workspace/talentpad/client/angular",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad/app",
+			"/Users/jai/Workspace/talentpad/client",
+			"/Users/jai/Workspace/talentpad",
+			"/Users/jai/Workspace/talentpad_1",
+			"",
+			"*.html",
+			"",
+			"/Users/jai/Workspace/talentpad/public",
+			"",
+			"/Users/jai/Workspace/talentpad/client",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"damagehelp@yandex.ru",
+			".top-menu__sub",
+			"primer-work",
+			"img",
+			"gist",
+			" {}",
+			".work__el",
+			"pagination : false,",
+			"sliderClass",
+			"resolution",
+			"demo",
+			"{}",
+			"img",
+			" {}",
+			".ic",
+			"'title'",
+			"section",
+			"top-menu__bar",
+			"0",
+			"ove",
+			"hiide",
+			"over",
+			"section-main__title",
+			".header-slogan",
+			".planet-wraper",
+			".footer__contact",
+			"audit",
+			"md",
+			"-5",
+			"/i",
+			"<i",
+			"i",
+			"seo",
+			"item",
+			"'icon':",
+			"Главная!1",
+			"audit",
+			"dar",
+			"{}",
+			"a(href=\"#\")",
+			"a(href=\"#\").planet-content__audit-el",
+			"header",
+			"beuty",
+			"table",
+			"распис",
+			".planet-title-waper",
+			"аудит",
+			".planet-el.",
+			"-audit",
+			"false",
+			"();\n",
+			"{}",
+			"x",
+			"alt",
+			"ctrl+x",
+			".",
+			"D",
+			"Sublime",
+			"sublime",
+			"tutor[^i]",
+			"tutor ",
+			"Tutorial",
+			"Tutor",
+			"tutor",
+			"Tutor",
+			"sublime",
+			"resources",
+			"^",
+			"phone",
+			"once",
+			"word",
+			"tag",
+			"Goto Anywhere",
+			"Quick",
+			"/",
+			" /",
+			"/ ",
+			"Upper",
+			"⌘ + L",
+			"⌘",
+			"DrMJG_HN ",
+			"line",
+			"word",
+			"lower",
+			"Selecting",
+			"The",
+			"tab",
+			"subprocess",
+			"run",
+			"on_modified",
+			"Invite New Member",
+			"Manage Team",
+			"credit_free_bookings",
+			"status: ",
+			"status: :ok",
+			"credit_free_bookings",
+			"initial_recharge_on_signup",
+			"credit_free_bookings",
+			"referral",
+			"late_by",
+			"booking_status",
+			"NUMBER_OF_CANCELLATION_ALLWED_IN_20_DAY",
+			"get_coordinates_and_distance",
+			"origin_coordinates_and_distance",
+			"cancel",
+			"generic",
+			"discounted_fare",
+			"fare",
+			"QZ696juyQW0suQDv8aGtErj4zVA0jVB3SUu9mpzW",
+			"titleize",
+			"send_message",
+			"free_bookings_credit_used",
+			"discounted_fare",
+			"fare",
+			"recharge_by",
+			"initial_recharge_on_signup",
+			"availability",
+			"bookie",
+			"initial_recharge_on_signup",
+			"credit_free",
+			"credit_free_bookings_for_recipient",
+			"free_booking",
+			"user",
+			"create",
+			"everone",
+			"rating",
+			"name",
+			"csv"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Tutor",
+			"Sublime",
+			"Goto Anything",
+			"recipient",
+			"TrevoUtilities",
+			"arrived_at_parking",
+			"full_messages.join(',')",
+			"52.74.85.135",
+			"Driver",
+			"driver",
+			"Driver",
+			"driver",
+			"Bus",
+			"bus",
+			"Bus",
+			"bus",
+			"",
+			"'",
+			"I led this project",
+			"You might find this helpful:",
+			":status => false",
+			":status => true",
+			"angulartics",
+			"192.168.33.10",
+			"0.0.0.0",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/web/SOLAR/app/html/aplication.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								683,
+								683
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".jade",
+								"current_syntax": "Jade/Syntaxes/Jade",
+								"enabled": false,
+								"last_updated": 1466669536.23
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 522.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/C/web/SOLAR/app/html/block_html/elements/_b-partners.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".jade",
+								"current_syntax": "Jade/Syntaxes/Jade",
+								"enabled": false,
+								"last_updated": 1466669536.23
+							},
+							"draw_white_space": "selection",
+							"history_list_is_closing": true,
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/web/SOLAR/app/html/block_html/elements/_b-fluid.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".jade",
+								"current_syntax": "Jade/Syntaxes/Jade",
+								"enabled": false,
+								"last_updated": 1466669536.23
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				2
+			],
+			[
+				2,
+				0,
+				3,
+				3
+			],
+			[
+				0,
+				1,
+				1,
+				3
+			],
+			[
+				1,
+				2,
+				2,
+				3
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.333333333333,
+			0.666666666667,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.446875,
+			0.498958333333,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "solar.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_b-flui",
+				"app\\html\\block_html\\elements\\_b-fluid.jade"
+			],
+			[
+				"aplica",
+				"app\\html\\aplication.jade"
+			],
+			[
+				"_b-f",
+				"app\\html\\block_html\\elements\\_b-fluid.jade"
+			],
+			[
+				"_b-part",
+				"app\\css\\include\\_b-partners.styl"
+			],
+			[
+				"_b-pa",
+				"app\\html\\block_html\\elements\\_b-paralax.jade"
+			],
+			[
+				"style",
+				"app\\css\\style.styl"
+			],
+			[
+				"_b-form",
+				"app\\html\\block_html\\elements\\_b-form.jade"
+			],
+			[
+				"_b-ma",
+				"app\\html\\block_html\\elements\\_b-map.jade"
+			],
+			[
+				"file",
+				"file.json"
+			],
+			[
+				"fakt",
+				"app\\html\\fakts.jade"
+			],
+			[
+				"header",
+				"app\\css\\include\\_header.styl"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"_b-",
+				"app\\css\\include\\_b-other-service.styl"
+			],
+			[
+				"scrip",
+				"app\\js\\script.js"
+			],
+			[
+				"_b-flei",
+				"app\\html\\block_html\\elements\\_b-fluid.jade"
+			],
+			[
+				"_b-pr",
+				"app\\html\\block_html\\elements\\_b-primer-work.jade"
+			],
+			[
+				"_b",
+				"app\\css\\include\\_b-specialist.styl"
+			],
+			[
+				"_o",
+				"app\\html\\block_html\\elements\\_b-other-service.jade"
+			],
+			[
+				"_p-rpo",
+				"app\\html\\block_html\\elements\\_p-promotion.jade"
+			],
+			[
+				"_header",
+				"app\\css\\include\\_header.styl"
+			],
+			[
+				"_b-lis",
+				"app\\css\\include\\_b-specialist.styl"
+			],
+			[
+				"_p-",
+				"app\\css\\include\\_p-promotion.styl"
+			],
+			[
+				"sty",
+				"app\\css\\style.styl"
+			],
+			[
+				"s",
+				"app\\css\\style.css"
+			],
+			[
+				"_b-s",
+				"app\\html\\block_html\\elements\\_b-specialist.jade"
+			],
+			[
+				"_flui",
+				"app\\html\\block_html\\elements\\_b-fluid.jade"
+			],
+			[
+				"_b-pri",
+				"app\\html\\block_html\\elements\\_b-primer-work.jade"
+			],
+			[
+				"_b-kind",
+				"app\\html\\block_html\\elements\\_b-kind-aplication.jade"
+			],
+			[
+				"index",
+				"app\\html\\index.jade"
+			],
+			[
+				"pro",
+				"app\\promotion.html"
+			],
+			[
+				"_el",
+				"app\\css\\variable\\_element.styl"
+			],
+			[
+				"scr",
+				"app\\js\\script.js"
+			],
+			[
+				"_",
+				"app\\css\\include\\_footer.styl"
+			],
+			[
+				"_ele",
+				"app\\css\\variable\\_element.styl"
+			],
+			[
+				"_co",
+				"app\\css\\variable\\_constant.styl"
+			],
+			[
+				"_cons",
+				"app\\css\\variable\\_constant.styl"
+			],
+			[
+				"_p",
+				"app\\html\\block_html\\elements\\_p-promotion.jade"
+			],
+			[
+				"index.",
+				"app\\html\\index.jade"
+			],
+			[
+				"_de",
+				"app\\css\\variable\\_default.styl"
+			],
+			[
+				"sytl",
+				"frontend\\app\\css\\style.styl"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"_foot",
+				"app\\html\\block_html\\elements\\_footer.jade"
+			],
+			[
+				"_head",
+				"app\\html\\block_html\\elements\\_header.jade"
+			],
+			[
+				"_footer",
+				"app\\css\\include\\_footer.styl"
+			],
+			[
+				"foot",
+				"app\\bower\\flexbox-grid-stylus\\resources\\jade\\includes\\footer.jade"
+			],
+			[
+				"_sty",
+				"app\\html\\block_html\\_style.jade"
+			],
+			[
+				"script",
+				"app\\js\\script.js"
+			],
+			[
+				"gu",
+				"gulpfile.js"
+			],
+			[
+				"_scr",
+				"app\\html\\block_html\\_script.jade"
+			],
+			[
+				"inde",
+				"app\\html\\index.jade"
+			],
+			[
+				"chapt2.2",
+				"chapter_2_2.md"
+			],
+			[
+				"c21",
+				"chapter_2_1.md"
+			],
+			[
+				"c2.md",
+				"chapter_2.md"
+			],
+			[
+				"c1rb",
+				"code/chapter_1.rb"
+			],
+			[
+				"1.",
+				"chapter_1.md"
+			],
+			[
+				"1",
+				"chapter_1.md"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"readme.",
+				"README.md"
+			],
+			[
+				"",
+				"bz2/dependency-metadata.json"
+			],
+			[
+				"keybind",
+				"KeyBindingInspector/KeyBindingListener.py"
+			],
+			[
+				"keyb",
+				"KeyBindingInspector/KeyBindingListener.py"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				"feedbackcontr",
+				"app/controllers/api/v1/feedbacks_controller.rb"
+			],
+			[
+				"referral.rb",
+				"app/models/referral.rb"
+			],
+			[
+				"freebookin",
+				"app/models/free_booking.rb"
+			],
+			[
+				"freebookingcontr",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			],
+			[
+				"usercontr",
+				"app/controllers/api/v1/users_controller.rb"
+			],
+			[
+				"trip.rb",
+				"app/models/trip.rb"
+			],
+			[
+				"route.rb",
+				"app/models/route.rb"
+			],
+			[
+				"bookingcontr",
+				"app/controllers/api/v1/bookings_controller.rb"
+			],
+			[
+				"routecontr",
+				"app/controllers/api/v1/routes_controller.rb"
+			],
+			[
+				"booking.rb",
+				"app/models/booking.rb"
+			],
+			[
+				"static",
+				"app/controllers/api/v1/static_controller.rb"
+			],
+			[
+				"schemar.b",
+				"db/schema.rb"
+			],
+			[
+				"secret",
+				"config/secrets.yml"
+			],
+			[
+				"bookingserial",
+				"app/serializers/booking_serializer.rb"
+			],
+			[
+				"freebookingscredit",
+				"db/migrate/20151015072825_add_default_value_for_free_bookings_credit_used.rb"
+			],
+			[
+				"freebookingcred",
+				"db/migrate/20151008113500_add_free_bookings_credit_used_to_bookings.rb"
+			],
+			[
+				"vagrantfile",
+				"railsbox/development/Vagrantfile"
+			],
+			[
+				"adddefault",
+				"db/migrate/20150820081758_add_default_values_to_booking_attributes.rb"
+			],
+			[
+				"bookingseria",
+				"app/serializers/booking_serializer.rb"
+			],
+			[
+				"routescontr",
+				"app/controllers/api/v1/routes_controller.rb"
+			],
+			[
+				"feedba",
+				"app/admin/feedback.rb"
+			],
+			[
+				"path.rb",
+				"app/admin/path.rb"
+			],
+			[
+				"bus.rb",
+				"app/admin/bus.rb"
+			],
+			[
+				"driver.rb",
+				"app/admin/driver.rb"
+			],
+			[
+				"driver.",
+				"app/admin/driver.rb"
+			],
+			[
+				"feedback.",
+				"app/admin/feedback.rb"
+			],
+			[
+				"booking",
+				"app/admin/booking.rb"
+			],
+			[
+				"secret.",
+				"config/secrets.yml"
+			],
+			[
+				".yml",
+				"config/locales/en.yml"
+			],
+			[
+				"en.ym",
+				"config/locales/en.yml"
+			],
+			[
+				"freebooking.rb",
+				"app/models/free_booking.rb"
+			],
+			[
+				"freebookingcont",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			],
+			[
+				"referralcontr",
+				"app/controllers/api/v1/referrals_controller.rb"
+			],
+			[
+				"reffer",
+				"db/migrate/20151014084146_add_referrer_credited_to_referrals.rb"
+			],
+			[
+				"schema.rb",
+				"db/schema.rb"
+			],
+			[
+				"referral",
+				"app/models/referral.rb"
+			],
+			[
+				"gettrevo",
+				"railsbox/ansible/roles/nginx/templates/get_trevoapp.conf.j2"
+			],
+			[
+				"gettrev",
+				"railsbox/ansible/roles/nginx/templates/get_trevoapp.conf.j2"
+			],
+			[
+				"unicorn.con",
+				"railsbox/ansible/roles/nginx/templates/nginx_unicorn.conf.j2"
+			],
+			[
+				"nginxunico",
+				"railsbox/ansible/roles/nginx/templates/nginx_unicorn.conf.j2"
+			],
+			[
+				"nginxconf",
+				"railsbox/ansible/roles/nginx/templates/nginx.conf.j2"
+			],
+			[
+				"userseria",
+				"app/serializers/user_serializer.rb"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"freebookings",
+				"app/serializers/free_booking_serializer.rb"
+			],
+			[
+				"freebookingscon",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			],
+			[
+				"referralseria",
+				"app/serializers/referral_serializer.rb"
+			],
+			[
+				"userserializer",
+				"app/serializers/user_serializer.rb"
+			],
+			[
+				"wallettransactionser",
+				"app/serializers/wallet_transaction_serializer.rb"
+			],
+			[
+				"applicationcontr",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"freebooking",
+				"app/models/free_booking.rb"
+			],
+			[
+				"freebookingser",
+				"app/serializers/free_booking_serializer.rb"
+			],
+			[
+				"freebookingscontr",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			],
+			[
+				"trevo.rake",
+				"lib/tasks/trevo.rake"
+			],
+			[
+				"bookingcontroller",
+				"app/controllers/api/v1/bookings_controller.rb"
+			],
+			[
+				"referralcon",
+				"app/controllers/api/v1/referrals_controller.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"location.rb",
+				"app/models/location.rb"
+			],
+			[
+				"referralscontr",
+				"app/controllers/api/v1/referrals_controller.rb"
+			],
+			[
+				"freebookingseri",
+				"app/serializers/free_booking_serializer.rb"
+			],
+			[
+				"freeb",
+				"app/models/free_booking.rb"
+			],
+			[
+				"bookingfreebooking",
+				"db/migrate/20151008130311_create_bookings_free_bookings.rb"
+			],
+			[
+				"bookingfree",
+				"app/models/bookings_free_booking.rb"
+			],
+			[
+				"bookingsfree",
+				"db/migrate/20151008130311_create_bookings_free_bookings.rb"
+			],
+			[
+				"renamefree",
+				"db/migrate/20151008125554_rename_free_bookings_to_promotions.rb"
+			],
+			[
+				"bookingscontr",
+				"app/controllers/api/v1/bookings_controller.rb"
+			],
+			[
+				"freebookingscontroller",
+				"app/controllers/api/v1/free_bookings_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Web\\STEND\\frontend\\frontend.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 327.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"bar1"
+			]
+		],
+		"width": 590.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

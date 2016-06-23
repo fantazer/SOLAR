@@ -1,0 +1,13 @@
+//Sheme
+mixin spectialist(el)
+	.main-cont
+		.section.section--dark
+			.title Процесс разработки
+			.fluid
+				- each item in el
+					.fluid__row
+						.fluid__el
+							.fluid__number #{item.number}
+							.fluid__info
+								.fluid__title #{item.title}
+								.fluid__text #{item.text}

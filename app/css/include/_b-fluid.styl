@@ -1,0 +1,41 @@
+//.fluid 
+.fluid__el
+	+below(768px)
+		width 100%
+		fl()
+	f()
+	border 1px solid purp
+	margin-bottom 20px
+	br(4px)
+	width 60%
+.fluid__row
+	&:nth-child(2)
+		flex(mid)
+	&:nth-child(3)
+		f()
+		justify-content flex-end
+	&:nth-child(4)
+		flex(mid)
+	&:nth-child(6)
+		flex(mid)
+	&:nth-child(7)
+		f()
+		justify-content flex-end
+	&:nth-child(8)
+		f()
+		justify-content center
+.fluid__number 
+	text-align center
+	font-size 110px
+	line-height 90px
+	padding 10px 30px 
+.fluid__info 
+	+below(768px)
+		text-align center
+	padding 20px
+	background pink-dark 
+.fluid__title
+	+below(768px)
+		text-align center
+	font-size 24px
+	font-weight 700

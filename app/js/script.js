@@ -36,7 +36,7 @@ $(document).ready(function(){
 		$('.planet-wraper').addClass('planet-wraper--mid');
 		$('.rows-cont').css('height','auto');
 		$('.section-main__title').hide();
-
+	
 		$scene.parallax('disable');
 
 		var typePlanet = $(this).data('type');
@@ -97,7 +97,7 @@ $(document).ready(function(){
 	      slider.owlCarousel({
 	        items : 1,
 				 	autoHeight : true,
-				 	autoplay : true,
+				 	autoPlay : false,
 				 	singleItem:true
 	      });
 	    }
@@ -106,10 +106,18 @@ $(document).ready(function(){
 	$(window).resize(function(){
 			mobileSlider(768,'.people');
 			mobileSlider(768,'.fluid');
+			mobileSlider(768,'.aplication-type');
+			mobileSlider(768,'.other-service');
+			mobileSlider(768,'.syte-type');
+			mobileSlider(768,'.repair-discr');
 		}
 	);
 	mobileSlider(768,'.fluid');
 	mobileSlider(768,'.people');
+	mobileSlider(768,'.aplication-type');
+	mobileSlider(768,'.other-service');
+	mobileSlider(768,'.syte-type');
+	mobileSlider(768,'.repair-discr');
 	
 	defaultSlider('.promotion-slider');
 
@@ -183,11 +191,37 @@ $(document).ready(function(){
 			 	autoHeight : true,
 			 	dots: true,
 			 	autoplay : true,
-			 	singleItem:true
+			 	singleItem:true,
+			 	nav:false
 			 }
 			 
 	);
 
+	//Slider partners
+	$(".partners").owlCarousel({
+			 	responsive : {
+			 		0:{
+					 	items : 1
+				 	},
+				 	768:{
+					 	items : 2
+				 	},
+				 	960:{
+					 	items : 2
+				 	},
+				 	1200:{
+					 	items : 5
+				 	},
+			  },
+			  margin:50,
+			 	autoHeight : true,
+			 	dots: false,
+			 	autoplay : true,
+			 	singleItem:true,
+			 	nav:true,
+					navText:['<div class="icon icon-angle-left"></div>','<div class="icon icon-angle-right"></div>']
+			 }
+	);
 	
 	/* ###### init EasyDropDown style for selects  ######*/
 	/* ###### bower i easydropdown  ######*/

@@ -1,0 +1,11 @@
+//work templates
+.main-cont
+	.section.section--dark
+		.title Другие услуги в сфере Web-разработки
+		.other-service
+			- each item in otherService
+				a(href="#").other-service__el
+					.other-service__img 
+						img(src="img/#{item.img}", alt="")
+					.other-service__title #{item.title}
+					.other-service__text #{item.text}

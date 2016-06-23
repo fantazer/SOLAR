@@ -1,0 +1,11 @@
+//Specialist
+mixin spectialist(el)
+	.main-cont
+		.section
+			.title Какие специальисты будут работать над Вашим «проектом»
+			.people
+				- each item in el
+					.people__el
+						.people__img
+							div(class="#{item.img}")
+						.people__text #{item.text}

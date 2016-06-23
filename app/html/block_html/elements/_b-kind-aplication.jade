@@ -1,0 +1,9 @@
+//kind-aplication
+.main-cont
+	.section
+		.title Какие приложения мы делаем
+		.aplication-type
+			- each item in kindApp
+				.aplication-type__el
+					.aplication-type__title #{item.title}
+					.aplication-type__text #{item.text}
