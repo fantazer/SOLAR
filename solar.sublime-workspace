@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
+				"flex",
+				"flex-grow"
+			],
+			[
+				"max",
+				"max-width	styl"
+			],
+			[
+				"lin",
+				"line-height	styl"
+			],
+			[
 				"ali",
-				"align-self"
+				"align-items"
+			],
+			[
+				"al",
+				"align-items"
 			],
 			[
 				"iocn",
@@ -14,10 +30,6 @@
 			[
 				"jus",
 				"justify-content"
-			],
-			[
-				"flex",
-				"flex-flow"
 			],
 			[
 				"cu",
@@ -188,10 +200,6 @@
 				"trips_with_availability"
 			],
 			[
-				"max",
-				"max_occupancy"
-			],
-			[
 				"total",
 				"total_deboarded"
 			],
@@ -208,26 +216,58 @@
 	"buffers":
 	[
 		{
-			"file": "/C/web/SOLAR/app/html/aplication.jade",
+			"file": "/C/web/SOLAR/app/html/portfolio.jade",
 			"settings":
 			{
-				"buffer_size": 683,
+				"buffer_size": 316,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/web/SOLAR/app/html/block_html/elements/_b-partners.jade",
+			"file": "/C/web/SOLAR/app/html/block_html/_style.jade",
 			"settings":
 			{
-				"buffer_size": 184,
+				"buffer_size": 761,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/web/SOLAR/app/html/block_html/elements/_b-fluid.jade",
+			"file": "/C/web/SOLAR/app/css/variable/_function.styl",
 			"settings":
 			{
-				"buffer_size": 288,
+				"buffer_size": 2060,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/SOLAR/app/css/style.styl",
+			"settings":
+			{
+				"buffer_size": 3449,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/SOLAR/app/js/script.js",
+			"settings":
+			{
+				"buffer_size": 9625,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/SOLAR/app/html/block_html/elements/_b-galary.jade",
+			"settings":
+			{
+				"buffer_size": 591,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/SOLAR/app/css/include/_b-articale-case.styl",
+			"settings":
+			{
+				"buffer_size": 191,
 				"line_ending": "Windows"
 			}
 		}
@@ -239,7 +279,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 296.0,
+		"height": 311.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -408,7 +448,7 @@
 				"Git: Status"
 			]
 		],
-		"width": 510.0
+		"width": 491.0
 	},
 	"console":
 	{
@@ -467,16 +507,66 @@
 		"/C/web/SOLAR/app/html",
 		"/C/web/SOLAR/app/html/block_html",
 		"/C/web/SOLAR/app/html/block_html/elements",
-		"/C/web/SOLAR/app/js",
-		"/C/web/SOLAR/dist",
-		"/C/web/SOLAR/node_modules",
-		"/C/web/SOLAR/node_modules/gulp-stylus",
-		"/C/web/SOLAR/node_modules/gulp-stylus/test",
-		"/C/web/SOLAR/node_modules/gulp-stylus/test/fixtures",
-		"/C/web/SOLAR/node_modules/gulp-stylus/test/fixtures/includes"
+		"/C/web/SOLAR/app/js"
 	],
 	"file_history":
 	[
+		"/C/web/SOLAR/app/css/include/_b-galary.styl",
+		"/C/web/SOLAR/app/html/index.jade",
+		"/C/web/SOLAR/app/html/block_html/_script.jade",
+		"/C/web/SOLAR/app/css/ie.css",
+		"/C/web/SOLAR/app/css/variable/_ie.styl",
+		"/C/web/SOLAR/app/css/include/_header.styl",
+		"/C/web/SOLAR/gulpfile.js",
+		"/C/web/SOLAR/app/css/style.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_header.jade",
+		"/C/Web/TRAVEL/node_modules/axis/axis/utilities.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-galary.jade",
+		"/C/Web/TRAVEL/node_modules/axis/axis/code.styl",
+		"/C/Web/TRAVEL/node_modules/axis/axis/interaction.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_const.jade",
+		"/C/web/SOLAR/app/portfolio.html",
+		"/C/web/SOLAR/app/css/variable/_element.styl",
+		"/C/web/SOLAR/app/html/promotion.jade",
+		"/C/web/SOLAR/app/css/include/_b-paralax.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-paralax.jade",
+		"/C/web/SOLAR/file.json",
+		"/C/web/SOLAR/app/css/include/_b-mark.styl",
+		"/C/web/SOLAR/app/css/include/_b-form__light.styl",
+		"/C/web/SOLAR/app/html/articale-case.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-form__light.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-articale-case.jade",
+		"/C/web/SOLAR/app/css/variable/_function.styl",
+		"/C/web/SOLAR/app/css/include/_b-articale-case.styl",
+		"/C/web/SOLAR/app/css/include/_b-form-light.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-pagination.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-mark.jade",
+		"/C/web/SOLAR/app/css/variable/_default.styl",
+		"/C/web/SOLAR/app/css/include/_b-pagination.styl",
+		"/C/Web/STEND/frontend/app/css/variable/_default.styl",
+		"/C/web/SOLAR/app/html/aplication.jade",
+		"/C/web/SOLAR/app/html/order.jade",
+		"/C/web/SOLAR/app/css/include/_b-order.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-form.jade",
+		"/C/web/SOLAR/app/html/support.jade",
+		"/C/web/SOLAR/app/js/script.js",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-order.jade",
+		"/C/web/SOLAR/app/css/variable/_constant.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-work.jade",
+		"/C/web/SOLAR/app/css/include/_b-other-service.styl",
+		"/C/web/SOLAR/app/css/include/_b-fluid.styl",
+		"/C/web/SOLAR/app/css/include/_b-repair.styl",
+		"/C/web/SOLAR/app/css/include/_b-work.styl",
+		"/C/web/SOLAR/app/html/reanimation.jade",
+		"/C/web/SOLAR/app/reanimation.html",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-repair.jade",
+		"/C/web/SOLAR/app/html/syte.jade",
+		"/C/web/SOLAR/app/css/include/_b-kind-site.styl",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-kind-site.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-fluid.jade",
+		"/C/web/SOLAR/app/html/fakts.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-kind-aplication.jade",
+		"/C/web/SOLAR/app/html/block_html/elements/_b-partners.jade",
 		"/C/web/SOLAR/app/css/include/_b-partners.styl",
 		"/C/Users/fantzer/AppData/Local/Temp/scp12520/httpdocs/damage-help.ru/wp-content/themes/AAK/index.php",
 		"/C/Users/fantzer/AppData/Local/Temp/scp18755/httpdocs/damage-help.ru/wp-content/themes/AAK/header.php",
@@ -486,37 +576,20 @@
 		"/C/Users/fantzer/AppData/Local/Temp/scp17979/httpdocs/damage-help.ru/wp-content/themes/AAK/page_allservice.php",
 		"/C/Users/fantzer/AppData/Local/Temp/scp17231/httpdocs/damage-help.ru/wp-content/themes/AAK/page_contact.php",
 		"/C/Users/fantzer/AppData/Local/Temp/scp17595/httpdocs/damage-help.ru/wp-content/themes/AAK/page.php",
-		"/C/web/SOLAR/app/css/include/_b-fluid.styl",
-		"/C/web/SOLAR/app/css/style.styl",
-		"/C/web/SOLAR/app/html/fakts.jade",
-		"/C/web/SOLAR/app/js/script.js",
 		"/C/web/SOLAR/app/css/include/_b-map.styl",
 		"/C/Users/fantzer/AppData/Local/Temp/scp16169/httpdocs/damage-help.ru/wp-content/themes/AAK/footer.php",
-		"/C/web/SOLAR/app/html/block_html/elements/_b-form.jade",
 		"/C/web/SOLAR/app/html/block_html/elements/_b-map.jade",
-		"/C/web/SOLAR/file.json",
-		"/C/web/SOLAR/app/css/include/_header.styl",
-		"/C/web/SOLAR/app/html/block_html/elements/_b-fluid.jade",
-		"/C/web/SOLAR/app/html/block_html/elements/_const.jade",
-		"/C/web/SOLAR/app/html/block_html/elements/_b-paralax.jade",
-		"/C/web/SOLAR/app/html/aplication.jade",
 		"/C/web/SOLAR/app/css/include/_b-specialist.styl",
-		"/C/web/SOLAR/gulpfile.js",
-		"/C/web/SOLAR/app/css/include/_b-other-service.styl",
 		"/C/web/SOLAR/app/html/block_html/elements/_b-other-service.jade",
 		"/C/web/SOLAR/node_modules/gulp-stylus/test/fixtures/includes/header.styl",
 		"/C/Web/STEND/frontend/app/css/variable/_function.styl",
 		"/C/web/SOLAR/app/html/block_html/elements/_b-primer-work.jade",
-		"/C/web/SOLAR/app/html/promotion.jade",
 		"/C/web/SOLAR/app/css/include/_p-promotion.styl",
 		"/C/web/SOLAR/app/html/block_html/elements/_b-specialist.jade",
 		"/C/web/SOLAR/app/html/block_html/elements/_p-promotion.jade",
 		"/C/web/SOLAR/app/css/include/_b-kind-aplication.styl",
-		"/C/web/SOLAR/app/html/block_html/elements/_b-kind-aplication.jade",
 		"/C/web/SOLAR/app/css/style.css",
 		"/C/web/SOLAR/app/css/include/_b-primer-work.styl",
-		"/C/web/SOLAR/app/css/variable/_element.styl",
-		"/C/web/SOLAR/app/css/variable/_constant.styl",
 		"/C/Users/fantzer/AppData/Local/Temp/scp20210/index.php",
 		"/c/users/fantzer/appdata/local/temp/TouchSwipe.js",
 		"/c/users/fantzer/appdata/local/temp/owl-style.styl",
@@ -525,22 +598,14 @@
 		"/C/Users/fantzer/AppData/Roaming/Sublime Text 3/Packages/Gist/Default (Windows).sublime-keymap",
 		"/C/web/SOLAR/app/css/include/_b-form.styl",
 		"/C/web/SOLAR/app/promotion.html",
-		"/C/web/SOLAR/app/css/include/_b-work.styl",
-		"/C/web/SOLAR/app/html/index.jade",
 		"/C/Web/STEND/frontend/app/js/script.js",
 		"/C/Users/fantzer/AppData/Local/Temp/scp48484/httpdocs/slider/slider.php",
-		"/C/web/SOLAR/app/html/block_html/elements/_b-work.jade",
 		"/C/web/SOLAR/app/css/include/_footer.styl",
 		"/C/web/SOLAR/dist/css/style.css",
-		"/C/web/SOLAR/app/css/variable/_function.styl",
-		"/C/web/SOLAR/app/css/variable/_default.styl",
 		"/C/web/SOLAR/app/html/block_html/elements/_footer.jade",
-		"/C/web/SOLAR/app/html/block_html/elements/_header.jade",
 		"/C/web/SOLAR/dist/index.html",
 		"/C/web/STEND/frontend/app/css/style.styl",
 		"/C/web/STEND/frontend/gulpfile.js",
-		"/C/web/SOLAR/app/css/include/_b-paralax.styl",
-		"/C/web/SOLAR/app/html/block_html/_script.jade",
 		"/C/web/SOLAR/app/html/block_html/_style.jade",
 		"/C/web/SOLAR/app/bower/flexbox-grid-stylus/resources/jade/includes/footer.jade",
 		"/C/web/SOLAR/app/index.html",
@@ -573,38 +638,7 @@
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_15.md",
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/README.md",
 		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_9.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_13.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_3.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_12.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_11.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_8.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_7.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_6.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_5.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_4.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_3.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_2.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/code/chapter_1.rb",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_1.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_1.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/tutorial.sublime-completions",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/README.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_6.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_14.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/contents.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4_3.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4_1.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_4_2.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/code/chapter_1.rb",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_2.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_3.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_4.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_6.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_5.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/contents.md",
-		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/SublimeTutor/tutorial/chapter_3_7.md"
+		"/Users/jai/Library/Application Support/Sublime Text 3/Packages/sublimetutor/tutorial/chapter_2_13.md"
 	],
 	"find":
 	{
@@ -716,6 +750,41 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			":",
+			"  ",
+			"    ",
+			"   ",
+			"  ",
+			"ngle",
+			"tr",
+			"tring",
+			"'numb'",
+			"'title'",
+			"button",
+			"category-2",
+			"category-1",
+			"  galary-el",
+			"sort",
+			"**/",
+			"white",
+			"purp",
+			" {}",
+			"icon-bars",
+			".clearfix",
+			"    ",
+			":",
+			";",
+			"}",
+			"{",
+			"30",
+			"service",
+			";",
+			":",
+			"lg",
+			" {}",
+			"partners",
+			"icon-seo",
+			"aplication",
 			"damagehelp@yandex.ru",
 			".top-menu__sub",
 			"primer-work",
@@ -808,42 +877,7 @@
 			"on_modified",
 			"Invite New Member",
 			"Manage Team",
-			"credit_free_bookings",
-			"status: ",
-			"status: :ok",
-			"credit_free_bookings",
-			"initial_recharge_on_signup",
-			"credit_free_bookings",
-			"referral",
-			"late_by",
-			"booking_status",
-			"NUMBER_OF_CANCELLATION_ALLWED_IN_20_DAY",
-			"get_coordinates_and_distance",
-			"origin_coordinates_and_distance",
-			"cancel",
-			"generic",
-			"discounted_fare",
-			"fare",
-			"QZ696juyQW0suQDv8aGtErj4zVA0jVB3SUu9mpzW",
-			"titleize",
-			"send_message",
-			"free_bookings_credit_used",
-			"discounted_fare",
-			"fare",
-			"recharge_by",
-			"initial_recharge_on_signup",
-			"availability",
-			"bookie",
-			"initial_recharge_on_signup",
-			"credit_free",
-			"credit_free_bookings_for_recipient",
-			"free_booking",
-			"user",
-			"create",
-			"everone",
-			"rating",
-			"name",
-			"csv"
+			"credit_free_bookings"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -892,19 +926,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/web/SOLAR/app/html/aplication.jade",
+					"file": "/C/web/SOLAR/app/html/portfolio.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 683,
+						"buffer_size": 316,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								683,
-								683
+								149,
+								149
 							]
 						],
 						"settings":
@@ -919,41 +953,54 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -964,21 +1011,16 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"color_helper.file_palette":
 							[
@@ -988,144 +1030,12 @@
 								"current_ext": ".jade",
 								"current_syntax": "Jade/Syntaxes/Jade",
 								"enabled": false,
-								"last_updated": 1466669536.23
+								"last_updated": 1466772303.49
 							},
+							"open_with_edit": true,
 							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 522.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "/C/web/SOLAR/app/html/block_html/elements/_b-partners.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 184,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								184,
-								184
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "tab",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jade",
-								"current_syntax": "Jade/Syntaxes/Jade",
-								"enabled": false,
-								"last_updated": 1466669536.23
-							},
-							"draw_white_space": "selection",
-							"history_list_is_closing": true,
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1135,20 +1045,819 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/web/SOLAR/app/html/block_html/elements/_b-fluid.jade",
+					"buffer": 1,
+					"file": "/C/web/SOLAR/app/html/block_html/_style.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 288,
+						"buffer_size": 761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								288,
-								288
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".jade",
+								"current_syntax": "Jade/Syntaxes/Jade",
+								"enabled": false,
+								"last_updated": 1466772303.49
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/C/web/SOLAR/app/css/variable/_function.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2060,
+						"regions":
+						{
+							"gutter_color_1012":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#565d6b.png",
+								"regions":
+								[
+									[
+										1012,
+										1027
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1053":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#565d6b.png",
+								"regions":
+								[
+									[
+										1053,
+										1068
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1093":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#565d6b.png",
+								"regions":
+								[
+									[
+										1093,
+										1108
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1138":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#565d6b.png",
+								"regions":
+								[
+									[
+										1138,
+										1153
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1429":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										1429,
+										1485
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_824":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#e3e3e3.png",
+								"regions":
+								[
+									[
+										824,
+										855
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_862":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										862,
+										884
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1466772303.49
+							},
+							"draw_white_space": "all",
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/web/SOLAR/app/css/style.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3449,
+						"regions":
+						{
+							"gutter_color_1009":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										1009,
+										1037
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1088":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1116,
+										1128
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1116":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1116,
+										1128
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1432":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1460,
+										1477
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1460":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										1460,
+										1477
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1466":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#322f40.png",
+								"regions":
+								[
+									[
+										1494,
+										1513
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1490":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1518,
+										1542
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1494":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#322f40.png",
+								"regions":
+								[
+									[
+										1494,
+										1513
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1518":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										1518,
+										1542
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_18":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										18,
+										51
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_659":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										687,
+										699
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_687":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										687,
+										699
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_899":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										927,
+										940
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_913":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										941,
+										957
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_927":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										927,
+										940
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_941":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										941,
+										957
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_981":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										1009,
+										1037
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								113,
+								86
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1466772303.49
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/C/web/SOLAR/app/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								798,
+								798
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1466772303.49
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 358.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "/C/web/SOLAR/app/html/block_html/elements/_b-galary.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								259
 							]
 						],
 						"settings":
@@ -1168,36 +1877,41 @@
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1208,21 +1922,16 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"color_helper.file_palette":
 							[
@@ -1232,7 +1941,7 @@
 								"current_ext": ".jade",
 								"current_syntax": "Jade/Syntaxes/Jade",
 								"enabled": false,
-								"last_updated": 1466669536.23
+								"last_updated": 1466772303.49
 							},
 							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
@@ -1245,6 +1954,164 @@
 					"stack_index": 1,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "/C/web/SOLAR/app/css/include/_b-articale-case.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 191,
+						"regions":
+						{
+							"gutter_color_64":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										64,
+										76
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_92":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										92,
+										104
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"class_or_id": "galary-head__toggle",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1466772303.49
+							},
+							"history_list_is_closing": true,
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1282,27 +2149,34 @@
 				0,
 				1,
 				1,
-				3
+				4
 			],
 			[
 				1,
 				2,
 				2,
-				3
+				4
+			],
+			[
+				2,
+				3,
+				3,
+				4
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.333333333333,
-			0.666666666667,
+			0.410425844346,
+			0.676358296623,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.446875,
-			0.498958333333,
+			0.502153558052,
+			0.504236891386,
+			0.505360486891,
 			1.0
 		]
 	},
@@ -1333,8 +2207,212 @@
 		"selected_items":
 		[
 			[
+				"_gala",
+				"app\\html\\block_html\\elements\\_b-galary.jade"
+			],
+			[
+				"b-gal",
+				"app\\css\\include\\_b-galary.styl"
+			],
+			[
+				"style",
+				"app\\css\\style.styl"
+			],
+			[
+				"_sty",
+				"app\\html\\block_html\\_style.jade"
+			],
+			[
+				"_hea",
+				"app\\html\\block_html\\elements\\_header.jade"
+			],
+			[
+				"func",
+				"app\\css\\variable\\_function.styl"
+			],
+			[
+				"_hear",
+				"app\\css\\include\\_header.styl"
+			],
+			[
+				"_const",
+				"app\\html\\block_html\\elements\\_const.jade"
+			],
+			[
+				"script",
+				"app\\js\\script.js"
+			],
+			[
+				"script.jade",
+				"app\\html\\block_html\\_script.jade"
+			],
+			[
+				"_b-par",
+				"app\\css\\include\\_b-paralax.styl"
+			],
+			[
+				"_b-pra",
+				"app\\html\\block_html\\elements\\_b-paralax.jade"
+			],
+			[
+				"index",
+				"app\\html\\index.jade"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"_b-gal",
+				"app\\css\\include\\_b-galary.styl"
+			],
+			[
+				"port",
+				"app\\portfolio.html"
+			],
+			[
+				"_b-gala",
+				"app\\html\\block_html\\elements\\_b-galary.jade"
+			],
+			[
+				"file",
+				"file.json"
+			],
+			[
+				"artic",
+				"app\\html\\articale-case.jade"
+			],
+			[
+				"_b-art",
+				"app\\css\\include\\_b-articale-case.styl"
+			],
+			[
+				"_b-form",
+				"app\\css\\include\\_b-form__light.styl"
+			],
+			[
+				"_b-form__",
+				"app\\html\\block_html\\elements\\_b-form__light.jade"
+			],
+			[
+				"arti",
+				"app\\html\\articale-case.jade"
+			],
+			[
+				"_heade",
+				"app\\css\\include\\_header.styl"
+			],
+			[
+				"_b-pag",
+				"app\\css\\include\\_b-pagination.styl"
+			],
+			[
+				"_b-mark",
+				"app\\css\\include\\_b-mark.styl"
+			],
+			[
+				"_b-ar",
+				"app\\html\\block_html\\elements\\_b-articale-case.jade"
+			],
+			[
+				"art",
+				"app\\html\\articale-case.jade"
+			],
+			[
+				"header",
+				"app\\css\\include\\_header.styl"
+			],
+			[
+				"_b-pagin",
+				"app\\css\\include\\_b-pagination.styl"
+			],
+			[
+				"_b-pagi",
+				"app\\html\\block_html\\elements\\_b-pagination.jade"
+			],
+			[
+				"_b-ma",
+				"app\\css\\include\\_b-mark.styl"
+			],
+			[
+				"_ele",
+				"app\\css\\variable\\_element.styl"
+			],
+			[
+				"_b-order",
+				"app\\css\\include\\_b-order.styl"
+			],
+			[
+				"_b-for",
+				"app\\html\\block_html\\elements\\_b-form.jade"
+			],
+			[
+				"_b-work",
+				"app\\html\\block_html\\elements\\_b-work.jade"
+			],
+			[
+				"_b-orde",
+				"app\\html\\block_html\\elements\\_b-order.jade"
+			],
+			[
+				"_b-or",
+				"app\\css\\include\\_b-other-service.styl"
+			],
+			[
+				"_b-othe",
+				"app\\css\\include\\_b-other-service.styl"
+			],
+			[
+				"scrip",
+				"app\\js\\script.js"
+			],
+			[
+				"_b-repa",
+				"app\\css\\include\\_b-repair.styl"
+			],
+			[
+				"rea",
+				"app\\reanimation.html"
+			],
+			[
+				"_b-rea",
+				"app\\html\\block_html\\elements\\_b-repair.jade"
+			],
+			[
+				"_b-re",
+				"app\\css\\include\\_b-repair.styl"
+			],
+			[
+				"sty",
+				"app\\css\\style.styl"
+			],
+			[
 				"_b-flui",
 				"app\\html\\block_html\\elements\\_b-fluid.jade"
+			],
+			[
+				"_b-wor",
+				"app\\html\\block_html\\elements\\_b-work.jade"
+			],
+			[
+				"_b-fl",
+				"app\\css\\include\\_b-fluid.styl"
+			],
+			[
+				"const",
+				"app\\html\\block_html\\elements\\_const.jade"
+			],
+			[
+				"_b-kind-",
+				"app\\css\\include\\_b-kind-site.styl"
+			],
+			[
+				"_b-kind",
+				"app\\html\\block_html\\elements\\_b-kind-aplication.jade"
+			],
+			[
+				"_b-kind-si",
+				"app\\html\\block_html\\elements\\_b-kind-site.jade"
 			],
 			[
 				"aplica",
@@ -1353,40 +2431,12 @@
 				"app\\html\\block_html\\elements\\_b-paralax.jade"
 			],
 			[
-				"style",
-				"app\\css\\style.styl"
-			],
-			[
-				"_b-form",
-				"app\\html\\block_html\\elements\\_b-form.jade"
-			],
-			[
-				"_b-ma",
-				"app\\html\\block_html\\elements\\_b-map.jade"
-			],
-			[
-				"file",
-				"file.json"
-			],
-			[
 				"fakt",
 				"app\\html\\fakts.jade"
 			],
 			[
-				"header",
-				"app\\css\\include\\_header.styl"
-			],
-			[
-				"gul",
-				"gulpfile.js"
-			],
-			[
 				"_b-",
 				"app\\css\\include\\_b-other-service.styl"
-			],
-			[
-				"scrip",
-				"app\\js\\script.js"
 			],
 			[
 				"_b-flei",
@@ -1421,10 +2471,6 @@
 				"app\\css\\include\\_p-promotion.styl"
 			],
 			[
-				"sty",
-				"app\\css\\style.styl"
-			],
-			[
 				"s",
 				"app\\css\\style.css"
 			],
@@ -1441,14 +2487,6 @@
 				"app\\html\\block_html\\elements\\_b-primer-work.jade"
 			],
 			[
-				"_b-kind",
-				"app\\html\\block_html\\elements\\_b-kind-aplication.jade"
-			],
-			[
-				"index",
-				"app\\html\\index.jade"
-			],
-			[
 				"pro",
 				"app\\promotion.html"
 			],
@@ -1463,10 +2501,6 @@
 			[
 				"_",
 				"app\\css\\include\\_footer.styl"
-			],
-			[
-				"_ele",
-				"app\\css\\variable\\_element.styl"
 			],
 			[
 				"_co",
@@ -1511,14 +2545,6 @@
 			[
 				"foot",
 				"app\\bower\\flexbox-grid-stylus\\resources\\jade\\includes\\footer.jade"
-			],
-			[
-				"_sty",
-				"app\\html\\block_html\\_style.jade"
-			],
-			[
-				"script",
-				"app\\js\\script.js"
 			],
 			[
 				"gu",
@@ -1691,158 +2717,6 @@
 			[
 				"secret.",
 				"config/secrets.yml"
-			],
-			[
-				".yml",
-				"config/locales/en.yml"
-			],
-			[
-				"en.ym",
-				"config/locales/en.yml"
-			],
-			[
-				"freebooking.rb",
-				"app/models/free_booking.rb"
-			],
-			[
-				"freebookingcont",
-				"app/controllers/api/v1/free_bookings_controller.rb"
-			],
-			[
-				"referralcontr",
-				"app/controllers/api/v1/referrals_controller.rb"
-			],
-			[
-				"reffer",
-				"db/migrate/20151014084146_add_referrer_credited_to_referrals.rb"
-			],
-			[
-				"schema.rb",
-				"db/schema.rb"
-			],
-			[
-				"referral",
-				"app/models/referral.rb"
-			],
-			[
-				"gettrevo",
-				"railsbox/ansible/roles/nginx/templates/get_trevoapp.conf.j2"
-			],
-			[
-				"gettrev",
-				"railsbox/ansible/roles/nginx/templates/get_trevoapp.conf.j2"
-			],
-			[
-				"unicorn.con",
-				"railsbox/ansible/roles/nginx/templates/nginx_unicorn.conf.j2"
-			],
-			[
-				"nginxunico",
-				"railsbox/ansible/roles/nginx/templates/nginx_unicorn.conf.j2"
-			],
-			[
-				"nginxconf",
-				"railsbox/ansible/roles/nginx/templates/nginx.conf.j2"
-			],
-			[
-				"userseria",
-				"app/serializers/user_serializer.rb"
-			],
-			[
-				"routes.rb",
-				"config/routes.rb"
-			],
-			[
-				"freebookings",
-				"app/serializers/free_booking_serializer.rb"
-			],
-			[
-				"freebookingscon",
-				"app/controllers/api/v1/free_bookings_controller.rb"
-			],
-			[
-				"referralseria",
-				"app/serializers/referral_serializer.rb"
-			],
-			[
-				"userserializer",
-				"app/serializers/user_serializer.rb"
-			],
-			[
-				"wallettransactionser",
-				"app/serializers/wallet_transaction_serializer.rb"
-			],
-			[
-				"applicationcontr",
-				"app/controllers/application_controller.rb"
-			],
-			[
-				"freebooking",
-				"app/models/free_booking.rb"
-			],
-			[
-				"freebookingser",
-				"app/serializers/free_booking_serializer.rb"
-			],
-			[
-				"freebookingscontr",
-				"app/controllers/api/v1/free_bookings_controller.rb"
-			],
-			[
-				"trevo.rake",
-				"lib/tasks/trevo.rake"
-			],
-			[
-				"bookingcontroller",
-				"app/controllers/api/v1/bookings_controller.rb"
-			],
-			[
-				"referralcon",
-				"app/controllers/api/v1/referrals_controller.rb"
-			],
-			[
-				"schem",
-				"db/schema.rb"
-			],
-			[
-				"location.rb",
-				"app/models/location.rb"
-			],
-			[
-				"referralscontr",
-				"app/controllers/api/v1/referrals_controller.rb"
-			],
-			[
-				"freebookingseri",
-				"app/serializers/free_booking_serializer.rb"
-			],
-			[
-				"freeb",
-				"app/models/free_booking.rb"
-			],
-			[
-				"bookingfreebooking",
-				"db/migrate/20151008130311_create_bookings_free_bookings.rb"
-			],
-			[
-				"bookingfree",
-				"app/models/bookings_free_booking.rb"
-			],
-			[
-				"bookingsfree",
-				"db/migrate/20151008130311_create_bookings_free_bookings.rb"
-			],
-			[
-				"renamefree",
-				"db/migrate/20151008125554_rename_free_bookings_to_promotions.rb"
-			],
-			[
-				"bookingscontr",
-				"app/controllers/api/v1/bookings_controller.rb"
-			],
-			[
-				"freebookingscontroller",
-				"app/controllers/api/v1/free_bookings_controller.rb"
 			]
 		],
 		"width": 0.0
@@ -1873,7 +2747,7 @@
 		],
 		"width": 590.0
 	},
-	"selected_group": 0,
+	"selected_group": 2,
 	"settings":
 	{
 	},

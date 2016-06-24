@@ -1,6 +1,7 @@
 @import 'rupture'
 @import "variable/_constant.styl"
 @import "variable/_function.styl"
+@import "variable/_ie.styl"
 
 /* -------------- style for sprite --------------*/
 @import "icon/sprite.css"
@@ -21,7 +22,6 @@ rupture.scale-names = 'xs' 'sm' 'md' 'lg'
 body
 	font-size 14px
 	font-family PT Sans
-	color white
 	overflow-x hidden
 	bgi('main-bg.jpg')
 	background-size cover
@@ -86,7 +86,8 @@ a
 	background white
 .owl-dot.active
 	background #322f40
-	
+.tr
+	triangle('up',20px,red)
 
 /* -------------- style for header --------------*/
 @import "include/_header.styl"
@@ -121,14 +122,32 @@ a
 /* -------------- style for other service --------------*/
 @import "include/_b-other-service.styl"
 
-/* -------------- style for map service --------------*/
+/* -------------- style for map  --------------*/
 @import "include/_b-map.styl"
 
-/* -------------- style for partners service --------------*/
+/* -------------- style for partners  --------------*/
 @import "include/_b-partners.styl"
 
-/* -------------- style for kind-site service --------------*/
+/* -------------- style for kind-site  --------------*/
 @import "include/_b-kind-site.styl"
 
-/* -------------- style for repair service --------------*/
+/* -------------- style for repair  --------------*/
 @import "include/_b-repair.styl"
+
+/* -------------- style for order  --------------*/
+@import "include/_b-order.styl"
+
+/* -------------- style for article case  --------------*/
+@import "include/_b-articale-case.styl"
+
+/* -------------- style for mark   --------------*/
+@import "include/_b-mark.styl"
+
+/* -------------- style for pagination   --------------*/
+@import "include/_b-pagination.styl"
+
+/* -------------- style for pagination   --------------*/
+@import "include/_b-form__light.styl"
+
+/* -------------- style for pagination   --------------*/
+@import "include/_b-galary.styl"

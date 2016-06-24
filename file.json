@@ -4,6 +4,7 @@
   "work-block":"b-work",
   "page-promotion":"p-promotion",
   "form-block":"b-form",
+  "form-block-white":"b-form__light",
   "work templates":"b-primer-work",
   "kind-aplication":"b-kind-aplication",
   "fluid-rows-block":"b-fluid",
@@ -12,5 +13,10 @@
   "map":"b-map",
   "partners":"b-partners",
   "create site":"b-kind-site",
-  "repair site":"b-repair"
+  "repair site":"b-repair",
+  "order":"b-order",
+  "articale-case":"b-articale-case",
+  "mark":"b-mark",
+  "pagination":"b-pagination",
+  "galary":"b-galary"
 }

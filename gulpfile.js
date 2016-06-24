@@ -26,7 +26,7 @@ var filter = require('gulp-filter');
 var fs = require('fs');
 var prettify = require('gulp-prettify');
 var combineMq = require('gulp-combine-mq');
-
+var webshot=require('gulp-webshot');
 
 // ########## make img ###############
 gulp.task('imagePng',function(){
@@ -73,6 +73,21 @@ gulp.task('sprite', function () {
   spriteData.img.pipe(gulp.dest('app/img/')); // путь, куда сохраняем картинку
   spriteData.css.pipe(gulp.dest('app/css/icon/')); // путь, куда сохраняем стили
 });
+
+//ScreenShot
+gulp.task('webshot', function() {
+  return gulp.src('app/*.html')
+        .pipe(webshot(
+          { 
+            dest:'app/img',
+            root:'.',
+            windowSize:{
+              width: 1920,
+              height: 1024
+            }
+          }
+        ));
+})
 // ########## make css ###############
 
 //Prefix my css

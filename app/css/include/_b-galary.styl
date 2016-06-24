@@ -1,0 +1,83 @@
+//.galary
+.galary-head
+	border-radius 4px 4px 0px 0px
+	background purp
+	margin-bottom 10px
+.galary-head__wraper
+	+below(768px)
+		display none
+	+above(768px)
+		display flex!important
+	flex(mid)
+	fw()
+.galary-head__el
+	up()
+	tr(all)
+	flex-grow 1
+	min-width 110px
+	text-align center
+	padding 10px 30px
+	color white
+	&:hover
+		cursor pointer
+		background purp-dark
+.galary-el
+	margin-bottom 10px
+	display none 
+.galary-wraper
+	flex(between)
+	fw()
+.galary-el
+	+below(992px)
+		width 32%
+	+below(768px)
+		width 49%
+	+below(640px)
+		width 100%
+	width 24%
+	height 260px
+	background-size cover!important
+	position relative
+	&:hover
+		cp()
+		.galary-info
+			display flex
+.galary-info
+	+below(640px)
+		display flex
+	flex(mid)
+	fl()
+	display none
+	align-items flex-start
+	position absolute
+	top 0px
+	left 0px
+	width 100%
+	height 100%
+	background rgba(0, 0, 0, 0.47)
+	padding 20px
+.galary-title
+	font-size 18px
+	color white
+	margin-bottom 10px
+.galary-text
+	color white
+	margin-bottom 10px
+.galary-link
+	up()
+	text-align center
+	padding 10px
+	border 1px solid white
+	color white
+	width 100%
+	tr(all)
+	&:hover
+		border 1px solid purp
+		color purp
+.galary-head__toggle
+	+below(768px)
+		f()
+		justify-content flex-end
+	display none
+	color white
+	padding 10px

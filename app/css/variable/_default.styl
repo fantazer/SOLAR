@@ -35,8 +35,17 @@ textarea
 .hidden
 	display none  !important
 
+.clearfix 
+	zoom 1
+.clearfix:before,
+.clearfix:after 
+	content ""
+	display table
+.clearfix:after 
+	clear both
+
 //Add Fonts
-//@font-face {font-family: "NAME_FONT";
+//@font-face {font-family "NAME_FONT";
 //  src: url("../fonts/NAME_FONT.eot"); /* IE9*/
 //  src: url("../fonts/NAME_FONT.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
 //  url("../fonts/NAME_FONT.woff2") format("woff2"), /* chrome、firefox */

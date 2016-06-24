@@ -26,12 +26,17 @@
 	background pink
 	&:hover
 		background darken(pink,10)
+.but-white
+	background white
+	color black
 .title
 	+below(768px)
 		font-size 20px
 		text-align center
 	font-size 30px
+	font-size 30px
 	margin-bottom 24px
+	font-weight 700 
 .title--lg
 	+below(768px)
 		text-align center
@@ -40,6 +45,39 @@
 	font-size 40px
 	font-weight 700
 	margin-bottom 20px
+	color white
+.title--sm
+	+below(768px)
+		font-size 16px
+		text-align center
+	font-size 18px
+	margin-bottom 15px
+	color white
+.title__arrow
+	+below(768px)
+		font-size 16px
+		margin-left 0
+		width 100%
+		&:before
+			content ''
+			display none 
+	up()
+	font-size 18px
+	padding 10px 20px
+	background purp
+	display inline-block
+	position relative
+	margin-left 20px
+	&:before
+		content ''
+		position absolute
+		left -20px
+		top 0;
+		width 0;
+		height 0;
+		border-top 21.5px solid transparent
+		border-right 20px solid #716bb0
+		border-bottom 21.5px solid transparent
 .section
 	+below(768px)
 		padding 20px
@@ -47,12 +85,38 @@
 	background purp 
 	margin-bottom 20px
 	background-size cover
+	color white
 .section--dark
 	background purp-dark
-input
+.section--grey
+	background #e1e1e1 
+.section--light
+	colot black
+	background white
+	br(4px)
+	.title
+		color black
+	.title--sm
+		color black
+	p
+		color black
+		margin-bottom 20px
+input,textarea
 	padding 8px 15px
 	br(4px)
 	border 0px
-
+	color black
+.article-img__right
+	float right
+	margin 0 0 10px 10px
+.article-img__left
+	float left
+	margin 0 10px 10px 0px
+.artilce-img
+	max-width 50%
+.clearfix__mobile
+	+below(768px)
+		display block
+	display none 
 	
 	

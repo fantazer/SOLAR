@@ -18,7 +18,9 @@
 		extensions: ["effect-menu-slide", "effect-listitems-slide"] - for animation
 	});
 */
-
+$(function(){
+    $('.galary-wraper').mixItUp();
+});
 $(document).ready(function(){
 	//animate hover menu
 	/*$('.top-menu__el').hover(
@@ -29,6 +31,9 @@ $(document).ready(function(){
 			$(this).find('.top-menu__sub').css('opacity',1).show().animate({opacity:0},200);
 		}
 	)*/
+
+	//Filter sort
+
 	//animate planet
 	$('.planet-el').click(function(){
 		$('.planet-el').addClass('reset-position');
@@ -67,6 +72,7 @@ $(document).ready(function(){
 	hideToggle('.top-menu__bar','.top-menu-order');
 	hideToggle('.top-menu__bar','.top-menu__sub');
 	hideToggle('.top-menu__toggle','.top-menu__cont');
+	hideToggle('.galary-head__toggle','.galary-head__wraper');
 
 	//Paralax
 	var $scene = $('.section-main').parallax();

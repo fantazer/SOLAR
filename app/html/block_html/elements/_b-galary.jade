@@ -1,0 +1,16 @@
+.main-cont
+	.galary
+		.galary-head
+			.galary-head__toggle
+				.icon-bars
+			.galary-head__wraper
+				- each item in listPortfolio
+					div(data-filter=".#{item.type}").filter.galary-head__el #{item.title}
+		.galary-wraper
+			- each item in listPortfolio
+				div(class="galary-el #{item.type} mix" style="background:url('/img/portfolio.jpg')" data-myorder="#{item.numb}")
+					.galary-info
+						.galary-title Интернет магазин гаек и шурупов
+						.galary-text Lorem ipsum dolor sit amet consectetur adipiscing elit Aenean uismod bibendum
+						a(href="#").galary-link Открыть в новом окне
+

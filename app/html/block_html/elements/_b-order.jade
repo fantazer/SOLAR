@@ -1,0 +1,29 @@
+//order
+.main-cont
+	.section.section--dark
+		.title Для того, чтобы мы Вам позвонили нужно заполнить несколько полей:
+		form(action="#").form-order
+			.form-el
+				.form-el__title Как лучше к Вам обращаться?
+				.form-el__input
+					input(type="text" placeholder="Введите ваше имя")
+			.form-order__half
+				.form-el
+					.form-el__title Электронная почта
+					.form-el__input
+						input(type="phone" placeholder="Введите вашу почту")
+				.form-el
+					.form-el__title Введите Ваш телефон
+					.form-el__input
+						input(type="phone" placeholder="Введите ваш телефон")
+			.form-el
+				.form-el__title Дополнительная информация
+				.form-el__input
+					textarea(name="order", cols="30", rows="10")
+			.form-order__half
+				.form-el.form-el--but
+					a(href="#").but.but-mid.but-pink отправить сообщение
+				.form-el.form-el-file
+					.form-el-file__but
+						a.but.but-mid.but-white Обзор
+					.form-el-file__text Еще можно приложить файлы с документацией

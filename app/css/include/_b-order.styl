@@ -1,0 +1,35 @@
+.form-order
+	width 100%
+	.form-el
+		+below(768px)
+			margin-bottom 0px
+		width 100%
+		margin-bottom 20px
+	textarea
+		width 100%
+.form-order__half
+	fw()
+	flex(between)
+	.form-el
+		+below(768px)
+			width 100%
+		width 48%
+.form-el-file
+	+below(768px)
+		flex(mid)
+		fl()
+	f()
+	align-items center
+	justify-content flex-end
+	.but
+		margin-bottom 0
+.form-el-file__text
+	+below(768px)
+		width 100%
+		text-align center
+	margin-left 20px
+	width 30%
+.form-el-file__but
+	+below(768px)
+		margin 20px 0
+	

@@ -24,7 +24,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-clock {
   background-image: url(../img/sprite.png);
-  background-position: -229px -160px;
+  background-position: -160px -229px;
   width: 60px;
   height: 60px;
 }
@@ -42,7 +42,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-peoples {
   background-image: url(../img/sprite.png);
-  background-position: -160px -229px;
+  background-position: -229px -160px;
   width: 60px;
   height: 60px;
 }
@@ -93,4 +93,10 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-position: 0px -115px;
   width: 114px;
   height: 114px;
+}
+.icon-star {
+  background-image: url(../img/sprite.png);
+  background-position: -339px -109px;
+  width: 23px;
+  height: 21px;
 }
