@@ -118,5 +118,15 @@ input,textarea
 	+below(768px)
 		display block
 	display none 
-	
-	
+.mark-list
+	list-style none
+	position relative
+	&:before
+		content ''
+		position absolute
+		width 5px
+		height 5px
+		round()
+		background pink-dark
+		left -15px
+		top 5px	

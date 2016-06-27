@@ -30,7 +30,7 @@ var webshot=require('gulp-webshot');
 
 // ########## make img ###############
 gulp.task('imagePng',function(){
- return gulp.src('app/img/*.png')
+ return gulp.src('app/img/**/*.png')
      .pipe(newer('dist/img/'))
      .pipe(imagemin({
          progressive: true,
@@ -41,7 +41,7 @@ gulp.task('imagePng',function(){
  });
 
 gulp.task('imageJpg',function(){
-  return gulp.src('app/img/*.jpg')
+  return gulp.src('app/img/**/*.jpg')
   .pipe(newer('dist/img/'))
   .pipe(imagemin({
           progressive: true,
@@ -75,8 +75,9 @@ gulp.task('sprite', function () {
 });
 
 //ScreenShot
-gulp.task('webshot', function() {
-  return gulp.src('app/*.html')
+gulp.task('screenshot', function() {
+  return gulp.src('dist/*.html')
+        .pipe(newer('app/img/dist/'))
         .pipe(webshot(
           { 
             dest:'app/img',
@@ -84,7 +85,8 @@ gulp.task('webshot', function() {
             windowSize:{
               width: 1920,
               height: 1024
-            }
+            },
+            userAgent: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'
           }
         ));
 })

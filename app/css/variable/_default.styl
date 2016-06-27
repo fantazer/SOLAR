@@ -43,7 +43,28 @@ textarea
 	display table
 .clearfix:after 
 	clear both
-
+.all-page
+	fw()
+	display flex
+	align-items inherit
+	justify-content space-around
+.all-page__el
+	+below(768px)
+		width 100%
+	br(4px)
+	padding 3px
+	background white
+	margin 10px
+	width 31%
+	tr(all)
+	&:hover
+		transform scale(1.2)
+.all-page__title
+	up()
+	text-align center
+	color black
+	padding 20px 0px
+	font-size 14px
 //Add Fonts
 //@font-face {font-family "NAME_FONT";
 //  src: url("../fonts/NAME_FONT.eot"); /* IE9*/

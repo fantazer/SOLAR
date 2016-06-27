@@ -20,6 +20,9 @@ rupture.scale-names = 'xs' 'sm' 'md' 'lg'
 
 /* -------------- style basic --------------*/
 body
+	+below(768px)
+		background-size initial
+		background-repeat repeat-y
 	font-size 14px
 	font-family PT Sans
 	overflow-x hidden
@@ -151,3 +154,9 @@ a
 
 /* -------------- style for pagination   --------------*/
 @import "include/_b-galary.styl"
+
+/* -------------- style for pagination   --------------*/
+@import "include/_b-contacts.styl"
+
+/* -------------- style for pagination   --------------*/
+@import "include/_b-vacancy.styl"
