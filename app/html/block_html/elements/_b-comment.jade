@@ -1,0 +1,36 @@
+//Comment
+.comment
+	.title.title--sm.comment__title Коментарии ( 2 )
+	.comment__wraper
+		.comment__info
+			- for (var i=0; i < 3; i++ )
+				.comment__el
+					.comment__avatar
+						img(src="img/commnet-avatar.png", alt="")
+					.comment__block
+						.tr
+						.comment__head
+							.comment__name Ракитин Семен
+							.comment__date 21/12/17 в 18:32
+							.comment__edit
+								a(href="#").icon-pencil
+								a(href="#").icon-reply
+						.comment__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+			.comment__form
+				.title.title--sm Написать комментарий
+				form(action="#")
+					input(type="text" placeholder="Ваше имя") 
+					textarea(name="comment__form", cols="30", rows="10" placeholder="Ваше сообщение")
+					a(href="#").but.but-sm.but-purp Отправить
+		.comment-review
+			.title.title--sm Отзыв клиента
+			.comment-review__name Капитанов Сергей
+			.comment-review__org Директор ООО "Золотые гайки"
+			.comment-review__text Директор ООО "Золотые гайки" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+			.title.title--sm Оценка проекта
+			.comment-rating
+				- for (var i=0; i < 5; i++ )
+					.comment-rating__row
+						.comment-rating__text Работа менеджера
+						.comment-rating__val 10 
+							.icon-star

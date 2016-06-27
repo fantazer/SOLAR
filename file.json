@@ -20,5 +20,6 @@
   "pagination":"b-pagination",
   "galary":"b-galary",
   "contacts":"b-contacts",
-  "vacancy":"b-vacancy"
+  "vacancy":"b-vacancy",
+  "comments":"b-comment"
 }

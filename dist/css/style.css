@@ -24,21 +24,21 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 
 .icon-calendar {
   background-image: url(../img/sprite.png);
-  background-position: -362px -109px;
+  background-position: -339px -131px;
   width: 20px;
   height: 20px;
 }
 
 .icon-call {
   background-image: url(../img/sprite.png);
-  background-position: -339px -130px;
+  background-position: -379px -131px;
   width: 20px;
   height: 20px;
 }
 
 .icon-clock {
   background-image: url(../img/sprite.png);
-  background-position: -160px -229px;
+  background-position: -229px -160px;
   width: 60px;
   height: 60px;
 }
@@ -59,21 +59,28 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 
 .icon-location {
   background-image: url(../img/sprite.png);
-  background-position: -382px -109px;
+  background-position: -339px -165px;
   width: 14px;
   height: 20px;
 }
 
 .icon-message {
   background-image: url(../img/sprite.png);
-  background-position: -359px -130px;
+  background-position: -339px -151px;
   width: 20px;
   height: 14px;
 }
 
+.icon-pencil {
+  background-image: url(../img/sprite.png);
+  background-position: -359px -131px;
+  width: 20px;
+  height: 20px;
+}
+
 .icon-peoples {
   background-image: url(../img/sprite.png);
-  background-position: -229px -160px;
+  background-position: -160px -229px;
   width: 60px;
   height: 60px;
 }
@@ -97,6 +104,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-position: -229px 0px;
   width: 110px;
   height: 80px;
+}
+
+.icon-reply {
+  background-image: url(../img/sprite.png);
+  background-position: -339px -109px;
+  width: 26px;
+  height: 22px;
 }
 
 .icon-specialist-1 {
@@ -136,7 +150,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 
 .icon-star {
   background-image: url(../img/sprite.png);
-  background-position: -339px -109px;
+  background-position: -365px -109px;
   width: 23px;
   height: 21px;
 }/* -------------- style for font-icon --------------*/[data-icon]:before {
@@ -344,6 +358,11 @@ textarea {
   font-size: 16px;
 }
 
+.but-sm {
+  padding: 5px 25px;
+  font-size: 16px;
+}
+
 .but-lg {
   font-size: 24px;
   font-weight: 700;
@@ -431,8 +450,8 @@ textarea {
 }
 
 .section--light {
-  colot: #000;
-  background: #fff;
+  color: #000;
+  background: #ebebeb;
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
@@ -2076,10 +2095,6 @@ a {
   align-items: center;
 }
 
-.pagination-like .icon-star {
-  height: 25px;
-}
-
 .pagination__el {
   color: #000;
   display: -webkit-box;
@@ -2100,9 +2115,9 @@ a {
 .pagination__el .icon-angle-left,.pagination__el .icon-angle-right {
   font-size: 30px;
   line-height: 20px;
-}/* -------------- style for pagination   --------------*/.form__light .form-el__title {
+}/* -------------- style for form__light   --------------*/.form__light .form-el__title {
   color: #000;
-}/* -------------- style for pagination   --------------*/.galary {
+}/* -------------- style for galary   --------------*/.galary {
   min-height: 500px;
 }
 
@@ -2252,7 +2267,7 @@ a {
   display: none;
   color: #fff;
   padding: 10px;
-}/* -------------- style for pagination   --------------*/.contact {
+}/* -------------- style for contacts   --------------*/.contact {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2304,7 +2319,7 @@ a {
 
 .contact__icon {
   margin-right: 15px;
-}/* -------------- style for pagination   --------------*/.vacancy {
+}/* -------------- style for vacancy   --------------*/.vacancy {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2361,6 +2376,160 @@ a {
 
 .vacancy__icon {
   margin-right: 15px;
+}/* -------------- style for comment   --------------*/.comment__title {
+  border-bottom: 2px solid #bfbfbf;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.comment__wraper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.comment__info {
+  width: 60%;
+  margin-right: 2%;
+}
+
+.comment__el {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comment__avatar {
+  margin-right: 30px;
+}
+
+.comment__block {
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  position: relative;
+  padding: 20px 20px;
+  background-color: #e1e1e1;
+  color: #000;
+}
+
+.comment__block .tr {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #e1e1e1;
+  position: absolute;
+  top: 20px;
+  left: -30px;
+}
+
+.comment__head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #bfbfbf;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.comment__name {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.comment__date {
+  color: #bfbfbf;
+}
+
+.comment__edit {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.comment__edit [class*="icon"] {
+  margin-left: 15px;
+}
+
+.comment-review {
+  width: 38%;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  position: relative;
+  padding: 20px 20px;
+  background-color: #e1e1e1;
+  color: #000;
+}
+
+.comment-review__name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.comment-review__org {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.comment-review__text {
+  margin-bottom: 20px;
+}
+
+.comment-rating__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment-rating__val {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.comment-rating__val .icon-star {
+  margin-left: 10px;
+}
+
+.comment__form input,.comment__form textarea {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 @font-face {
@@ -2969,6 +3138,50 @@ a {
   }
 
   .vacancy__info {
+    width: 100%;
+  }
+
+  .comment__info {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .comment__avatar {
+    display: none;
+  }
+
+  .comment__block .tr {
+    display: none;
+  }
+
+  .comment__head {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .comment__name {
+    width: 100%;
+  }
+
+  .comment__edit {
+    margin-top: -10px;
+  }
+
+  .comment-review {
+    width: 100%;
+  }
+
+  .comment__form .but {
     width: 100%;
   }
 }

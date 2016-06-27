@@ -82,6 +82,7 @@ gulp.task('screenshot', function() {
           { 
             dest:'app/img',
             root:'.',
+            renderDelay:2000,
             windowSize:{
               width: 1920,
               height: 1024

@@ -1,0 +1,92 @@
+//.comment
+.comment__title
+	border-bottom 2px solid #bfbfbf
+	padding-bottom 20px
+	margin-bottom 20px
+.comment__wraper
+	f()
+	fw()
+	align-items flex-start
+.comment__info
+	+below(768px)
+		width 100%
+		margin-right 0
+	width 60%
+	margin-right 2%
+.comment__el
+	f()
+	margin-bottom 20px
+.comment__avatar
+	+below(768px)
+		display none
+	margin-right 30px
+.comment__block
+	br(4px)
+	position relative
+	padding 20px 20px
+	background-color #e1e1e1
+	color black
+	.tr
+		+below(768px)
+			display none 
+		triangle:'left' 10px #e1e1e1
+		position absolute
+		top 20px
+		left -30px
+.comment__head
+	+below(768px)
+		flex(mid)
+	f()
+	fw()
+	border-bottom 1px solid #bfbfbf
+	margin-bottom 10px
+	padding-bottom 10px
+.comment__name
+	+below(768px)
+		width 100%
+	font-weight 700
+	margin-right 10px 
+.comment__date
+	color #bfbfbf
+.comment__edit
+	+below(768px)
+		margin-top -10px
+	f()
+	[class*="icon"]
+		margin-left 15px
+	margin-left auto
+//.comment__text
+.comment-review
+	+below(768px)
+		width 100%
+	width 38%
+	br(4px)
+	position relative
+	padding 20px 20px
+	background-color #e1e1e1
+	color black
+.comment-review__name
+	font-size 16px
+	font-weight 700
+.comment-review__org
+	font-size 14px
+	font-weight 700
+	margin-bottom 20px
+.comment-review__text
+	margin-bottom 20px
+//.comment-rating
+.comment-rating__row
+	flex(between)
+	margin-bottom 10px
+//.comment-rating__text
+.comment-rating__val
+	flex(mid)
+	.icon-star
+		margin-left 10px
+.comment__form
+	+below(768px)
+		.but
+			width 100%
+	input,textarea
+		width 100%
+		margin-bottom 10px
