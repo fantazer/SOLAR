@@ -90,7 +90,18 @@
 	background-size cover
 	color white
 .section--dark
-	background purp-dark
+	background-color purp-dark
+.section--bg-bottom
+	background-image url(../img/bg-left.png)
+	background-size initial
+	background-repeat no-repeat
+	background-position left bottom
+.section--bg-top
+	background-image url(../img/bg-top.png)
+	background-size 250px
+	background-repeat no-repeat
+	background-position right top
+	
 .section--grey
 	background #e1e1e1 
 .section--light
@@ -111,12 +122,12 @@ input,textarea
 	color black
 .article-img__right
 	float right
-	margin 0 0 10px 10px
+	margin 0 0 20px 20px
 .article-img__left
 	float left
-	margin 0 10px 10px 0px
+	margin 0 20px 20px 0px
 .artilce-img
-	max-width 50%
+	max-width calc(50% - 20px)
 .clearfix__mobile
 	+below(768px)
 		display block
