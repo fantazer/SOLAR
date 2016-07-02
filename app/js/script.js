@@ -22,6 +22,7 @@ $(function(){
     $('.galary-wraper').mixItUp();
 });
 $(document).ready(function(){
+
 	//animate hover menu
 	/*$('.top-menu__el').hover(
 		function(){
@@ -54,6 +55,16 @@ $(document).ready(function(){
 
 	})
 
+	
+	function updateSize(){
+        var minHeight=parseInt($('.owl-item').eq(0).css('height'));
+        console.log(minHeight);
+        $('.owl-item').each(function () {
+            var thisHeight = parseInt($(this).css('height'));
+            minHeight=(minHeight<=thisHeight?minHeight:thisHeight);
+        });
+        $('.owl-wrapper-outer').css('height',minHeight+'px');
+    }
 	/* ###### For SlideToggle Elements  ######*/
 	var hideToggle = function(targetClick,toggleEl) {
 		$(targetClick).click(function(event){
@@ -81,15 +92,25 @@ $(document).ready(function(){
 	function defaultSlider(sliderClass) {
 	    var slider = $(sliderClass);
 	      slider.owlCarousel({
+	      		afterUpdate: function () {
+	      		  updateSize();
+	      		  console.log('asdasd')
+  		       },
+  		       afterInit:function(){
+  		         updateSize();
+	      		  console.log('asdasd')
+  		       },
 	      		items : 1,
-	      	 	autoHeight : true,
+	      	 	//autoHeight : true,
 	      	 	dots: false,
 	      	 	autoPlay : false,
 	      	 	singleItem:true,
 	      	 	nav:true,
-	      			navText:['<div class="icon icon-angle-left"></div>','<div class="icon icon-angle-right"></div>']
+	      		navText:['<div class="icon icon-angle-left"></div>','<div class="icon icon-angle-right"></div>'],
+	      		
 	      	}
 	   );
+
 	}
 	//Slider mobile
 	function mobileSlider(resolution,sliderClass) {
@@ -229,6 +250,10 @@ $(document).ready(function(){
 			 }
 	);
 	
+	//For ie click
+	if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)){
+		$('.planet-el:eq(1)').click();
+	}
 	/* ###### init EasyDropDown style for selects  ######*/
 	/* ###### bower i easydropdown  ######*/
 	/*<select class="dropdown"> add class (dropdown)

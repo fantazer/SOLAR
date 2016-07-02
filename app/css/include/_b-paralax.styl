@@ -1,13 +1,15 @@
 .rows-cont
 	position relative
-	height 100%
+	height calc(100% - 300px)
 .planet-el
-	+below(768px)
-		position initial!important
+	+below(1378px)
 		margin 40px 5px
 		width 60px
 		height 60px
 		font-size 14px
+	+below(768px)
+		position initial!important
+	
 	flex(mid)
 	round()
 	up()
@@ -24,23 +26,27 @@
 		background darken(purp,20)
 		cursor pointer
 .planet-audit
-	+below(lg)
-		left 165px!important
+	+below(1378px)
+		top 0px!important
+		left 235px!important
 	left 365px!important
 	top 95px!important
 .planet-smm
-	+below(lg)
-		left 380px!important
+	+below(1378px)
+		left 310px!important
+		top 140px!important
 	left 580px!important
 	top 70px!important
 .planet-seo
-	+below(lg)
-		left 380px!important
+	+below(1378px)
+		left 475px!important
+		top 150px!important
 	left 580px!important
 	top 270px!important
 .planet-web
-	+below(lg)
-		left 590px!important
+	+below(1378px)
+		left 625px!important
+		top 180px!important
 	left 790px!important
 	top 240px!important
 .section-main__title
@@ -50,17 +56,24 @@
 		flex(mid)
 	width 100%
 .planet-title-waper
+	+below(1378px)
+		width 30%
+		max-width 370px
 	+below(768px)
 		width 100%
 		text-align center
 	width 60%
 	position absolute!important
 	left initial!important
-	right 0px!important
+	right 30px!important
 	top -230px !important
 	text-align right
 	height 100%
 .planet-title__el
+	+below(1378px)
+		font-size 40px
+	+below(1024px)
+		font-size 30px
 	+below(768px)
 		font-size 28px
 	font-size 60px
@@ -68,6 +81,10 @@
 	text-transform uppercase
 	color white
 .planet-title__el--small
+	+below(1378px)
+		font-size 16px
+	+below(1024px)
+		font-size 14px
 	+below(768px)
 		font-size 18px
 	font-size 40px
@@ -115,6 +132,8 @@
 	text-transform uppercase
 
 .planet-content__seo-el
+	+below(1378px)
+		height 220px
 	+below('md')
 		width 100%
 	+below(768px)
@@ -129,7 +148,7 @@
 	justify-content flex-start
 	//width 25%
 	background grey
-	padding 7% 3%
+	padding 5% 3%
 	background-color #1f2e43
 	&:hover
 		background-color #243650
