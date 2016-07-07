@@ -235,7 +235,7 @@
 			"file": "/C/web/SOLAR/app/css/style.styl",
 			"settings":
 			{
-				"buffer_size": 3953,
+				"buffer_size": 4023,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,7 +251,7 @@
 			"file": "/C/web/SOLAR/app/js/script.js",
 			"settings":
 			{
-				"buffer_size": 9736,
+				"buffer_size": 10339,
 				"line_ending": "Windows"
 			}
 		}
@@ -618,7 +618,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -911,96 +911,96 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3953,
+						"buffer_size": 4023,
 						"regions":
 						{
-							"gutter_color_1079":
+							"gutter_color_1145":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/red.png",
 								"regions":
 								[
 									[
-										1079,
-										1092
+										1145,
+										1158
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1093":
+							"gutter_color_1159":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/red.png",
 								"regions":
 								[
 									[
-										1093,
-										1109
+										1159,
+										1175
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1161":
+							"gutter_color_1231":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-										1161,
-										1189
+										1231,
+										1259
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1268":
+							"gutter_color_1338":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/white.png",
 								"regions":
 								[
 									[
-										1268,
-										1280
+										1338,
+										1350
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1612":
+							"gutter_color_1682":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/white.png",
 								"regions":
 								[
 									[
-										1612,
-										1629
+										1682,
+										1699
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1646":
+							"gutter_color_1716":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#322f40.png",
 								"regions":
 								[
 									[
-										1646,
-										1665
+										1716,
+										1735
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1670":
+							"gutter_color_1740":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/red.png",
 								"regions":
 								[
 									[
-										1670,
-										1694
+										1740,
+										1764
 									]
 								],
 								"scope": "gutter_color"
@@ -1046,6 +1046,14 @@
 							[
 								{
 									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1148,7 +1156,7 @@
 								"current_ext": ".styl",
 								"current_syntax": "Stylus/Stylus",
 								"enabled": false,
-								"last_updated": 1467276016.37
+								"last_updated": 1467812435.22
 							},
 							"history_list_is_closing": true,
 							"side_bar_folders_auto_load_folder": 1,
@@ -1212,6 +1220,14 @@
 							[
 								{
 									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1362,15 +1378,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9736,
+						"buffer_size": 10339,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5303,
-								5213
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1380,6 +1396,14 @@
 							[
 								{
 									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1410,61 +1434,61 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content"
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_helper.file_palette":
 							[
@@ -1474,14 +1498,14 @@
 								"current_ext": ".js",
 								"current_syntax": "JavaScript/JavaScript",
 								"enabled": false,
-								"last_updated": 1467276016.37
+								"last_updated": 1467812435.22
 							},
 							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7434.0,
+						"translation.y": 7581.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1507,7 +1531,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1557,16 +1581,16 @@
 		"cols":
 		[
 			0.0,
-			0.0,
-			0.0,
+			0.333333333333,
+			0.666666666667,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.0,
-			0.0,
-			1.0,
+			0.448979591837,
+			0.5,
+			0.75,
 			1.0
 		]
 	},
@@ -1587,7 +1611,7 @@
 	"project": "solar.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2119,7 +2143,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\fantzer\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\solar.sublime-project"
+				"C:\\Web\\JUREXLAW\\jurlax.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -2161,7 +2185,7 @@
 		],
 		"width": 580.0
 	},
-	"selected_group": 2,
+	"selected_group": 5,
 	"settings":
 	{
 	},

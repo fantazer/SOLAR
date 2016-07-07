@@ -437,7 +437,6 @@ textarea {
   padding: 30px 40px;
   background: #716bb0;
   margin-bottom: 20px;
-  background-size: cover;
   color: #fff;
 }
 
@@ -1511,7 +1510,7 @@ a {
 }
 
 .work__img {
-  margin-right: 20px;
+  margin-right: 20px !important;
   height: 60px;
 }
 
@@ -2575,6 +2574,10 @@ a {
     width: 30%;
   }
 
+  .repair-discr__img img {
+    width: 80%;
+  }
+
   .repair-discr__info {
     width: 70%;
   }
@@ -2649,6 +2652,12 @@ a {
 
   .detect-ie {
     display: block;
+  }
+
+  .top-menu-order__row {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   a {
@@ -2667,6 +2676,10 @@ a {
     width: 30%;
   }
 
+  .repair-discr__img img {
+    width: 80%;
+  }
+
   .repair-discr__info {
     width: 70%;
   }
@@ -2741,6 +2754,12 @@ a {
 
   .detect-ie {
     display: block;
+  }
+
+  .top-menu-order__row {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -3011,6 +3030,14 @@ a {
     top: 100%;
   }
 
+  .header-info {
+    width: 50%;
+  }
+
+  .header__top > a {
+    width: 50%;
+  }
+
   .footer-wraper {
     padding: 0;
   }
@@ -3188,7 +3215,7 @@ a {
   }
 
   .work__info {
-    width: 80%;
+    width: 70%;
     font-size: 14px;
     margin-left: 10px;
   }
