@@ -2212,7 +2212,7 @@ a {
 }
 
 .galary-el {
-  width: 24%;
+  width: 24.5%;
   height: 260px;
   background-size: cover !important;
   position: relative;
@@ -2784,7 +2784,7 @@ a {
 
 @media only screen and (max-width: 1378px) {
   .rows {
-    background-position-x: -200px;
+    background-position-x: -400px;
   }
 
   .planet-el {
@@ -2796,22 +2796,22 @@ a {
 
   .planet-audit {
     top: 0px !important;
-    left: 235px !important;
+    left: 40px !important;
   }
 
   .planet-smm {
-    left: 310px !important;
+    left: 115px !important;
     top: 140px !important;
   }
 
   .planet-seo {
-    left: 475px !important;
-    top: 150px !important;
+    left: 295px !important;
+    top: 110px !important;
   }
 
   .planet-web {
-    left: 625px !important;
-    top: 180px !important;
+    left: 415px !important;
+    top: 190px !important;
   }
 
   .planet-title-waper {

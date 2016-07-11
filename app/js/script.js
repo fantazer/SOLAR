@@ -253,6 +253,7 @@ $(document).ready(function(){
 	//For ie click
 	if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)){
 		$('.planet-el:eq(1)').click();
+		$scene.parallax('disable');
 	}
 	/* ###### init EasyDropDown style for selects  ######*/
 	/* ###### bower i easydropdown  ######*/

@@ -5,12 +5,10 @@ body
 	include block_html/elements/_header.jade
 	
 	.main-cont
-		.title--lg Вакансии
-
-	include block_html/elements/_b-vacancy.jade
-
-	include block_html/elements/_b-form.jade
-	
+		.title--lg Статьи
+	include block_html/elements/_b-galary.jade
+	+galary(listArticle)
+				
 	include block_html/elements/_footer.jade
 	
 	//Include footer
