@@ -1322,9 +1322,9 @@ a {
 }
 @media only screen and (max-width: 768px) {
   .footer__soc a {
-    width: 25px;
-    height: 25px;
-    margin: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
   }
 }
 .footer__soc .icon {
