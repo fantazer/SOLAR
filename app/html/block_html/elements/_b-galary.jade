@@ -3,7 +3,7 @@ mixin galary(obj)
 		.galary
 			.galary-head
 				.galary-head__toggle
-					.icon-bars
+					.icon-angle-right
 				.galary-head__wraper
 					- each item in obj
 						div(data-filter=".#{item.type}").filter.galary-head__el #{item.title}

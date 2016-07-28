@@ -85,6 +85,9 @@ $(document).ready(function(){
 	hideToggle('.top-menu__toggle','.top-menu__cont');
 	hideToggle('.galary-head__toggle','.galary-head__wraper');
 
+	if ($('window').width() < 768) {
+		hideToggle('.top-menu__service','.top-menu__sub');
+	};
 	//Paralax
 	var $scene = $('.section-main').parallax();
 

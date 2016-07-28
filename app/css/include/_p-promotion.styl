@@ -1,4 +1,9 @@
-//.promotion-slider
+.promotion-slider
+	+below(768px)
+		.owl-next
+			right -9%
+		.owl-prev
+			left -9%
 .promotion-slider__el
 	+below(768px)
 		fl()
@@ -16,11 +21,14 @@
 	+below(768px)
 		margin-bottom 10px
 		margin-right 0
+		width 100px
+		height 100px
 	margin-right 30px
 .promotion-slider__info
 	+below(768px)
 		width 100%
 		text-align center
+		//height 380px 
 	width 60%
 .promotion-slider__title
 	+below(768px)
@@ -28,3 +36,7 @@
 		min-height 40px
 	font-size 24px
 	margin-bottom 10px
+.promotion-slider__text
+	ul
+		+below(768px)
+			padding-left 10px!important

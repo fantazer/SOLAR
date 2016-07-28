@@ -23,7 +23,6 @@
 	+below(768px)
 		width 100% 
 		justify-content flex-end
-		margin-right 10px
 		margin-bottom 5px
 	up()
 	f()
@@ -35,7 +34,6 @@
 	+below(768px)
 		width 100%
 		justify-content flex-end
-		margin-right 10px
 	f()
 	up()
 	align-items center
@@ -79,8 +77,8 @@
 	
 .top-menu__sub
 	+below(768px)
-		position initial
-		display block
+		position relative
+		display none
 		background dark
 		margin-left 0
 	position absolute
@@ -98,9 +96,11 @@
 		&:hover
 			color #b286f9
 .top-menu__service
-	&:hover
-		.top-menu__sub
-			display block!important
+	+above(768px)
+		&:hover
+			.top-menu__sub
+				display block!important
+	
 .top-menu__bar
 	+below(768px)
 		display none!important

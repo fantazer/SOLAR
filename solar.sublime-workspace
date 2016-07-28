@@ -235,7 +235,7 @@
 			"file": "/C/web/SOLAR/app/css/style.styl",
 			"settings":
 			{
-				"buffer_size": 4023,
+				"buffer_size": 4028,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,7 +251,7 @@
 			"file": "/C/web/SOLAR/app/js/script.js",
 			"settings":
 			{
-				"buffer_size": 10339,
+				"buffer_size": 10369,
 				"line_ending": "Windows"
 			}
 		}
@@ -911,96 +911,96 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4023,
+						"buffer_size": 4028,
 						"regions":
 						{
-							"gutter_color_1145":
+							"gutter_color_1146":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/red.png",
 								"regions":
 								[
 									[
-										1145,
-										1158
+										1146,
+										1159
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1159":
+							"gutter_color_1160":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/red.png",
 								"regions":
 								[
 									[
-										1159,
-										1175
+										1160,
+										1176
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1231":
+							"gutter_color_1232":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-										1231,
-										1259
+										1232,
+										1260
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1338":
+							"gutter_color_1339":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/white.png",
 								"regions":
 								[
 									[
-										1338,
-										1350
+										1339,
+										1351
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1682":
+							"gutter_color_1683":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/white.png",
 								"regions":
 								[
 									[
-										1682,
-										1699
+										1683,
+										1700
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1716":
+							"gutter_color_1717":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#322f40.png",
 								"regions":
 								[
 									[
-										1716,
-										1735
+										1717,
+										1736
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_1740":
+							"gutter_color_1741":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/red.png",
 								"regions":
 								[
 									[
-										1740,
-										1764
+										1741,
+										1765
 									]
 								],
 								"scope": "gutter_color"
@@ -1018,15 +1018,15 @@
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_839":
+							"gutter_color_840":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/white.png",
 								"regions":
 								[
 									[
-										839,
-										851
+										840,
+										852
 									]
 								],
 								"scope": "gutter_color"
@@ -1046,6 +1046,10 @@
 							[
 								{
 									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1156,7 +1160,7 @@
 								"current_ext": ".styl",
 								"current_syntax": "Stylus/Stylus",
 								"enabled": false,
-								"last_updated": 1467812435.22
+								"last_updated": 1469519865.5
 							},
 							"history_list_is_closing": true,
 							"side_bar_folders_auto_load_folder": 1,
@@ -1220,6 +1224,10 @@
 							[
 								{
 									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1378,7 +1386,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10339,
+						"buffer_size": 10369,
 						"regions":
 						{
 						},
@@ -1417,12 +1425,19 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
 								"close":
+								{
+								},
+								"icon":
 								{
 								},
 								"open":
@@ -1434,6 +1449,36 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1444,46 +1489,16 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1498,7 +1513,7 @@
 								"current_ext": ".js",
 								"current_syntax": "JavaScript/JavaScript",
 								"enabled": false,
-								"last_updated": 1467812435.22
+								"last_updated": 1469519865.5
 							},
 							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
@@ -2143,7 +2158,7 @@
 		[
 			[
 				"",
-				"C:\\Web\\JUREXLAW\\jurlax.sublime-project"
+				"C:\\Users\\fantzer\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\solar.sublime-project"
 			]
 		],
 		"width": 380.0

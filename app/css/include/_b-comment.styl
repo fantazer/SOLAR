@@ -35,7 +35,7 @@
 		left -30px
 .comment__head
 	+below(768px)
-		flex(mid)
+		flex(between)
 	f()
 	fw()
 	border-bottom 1px solid #bfbfbf
@@ -43,10 +43,12 @@
 	padding-bottom 10px
 .comment__name
 	+below(768px)
-		width 100%
+		//width 100%
 	font-weight 700
 	margin-right 10px 
 .comment__date
+	+below(768px)
+		display none 
 	color #bfbfbf
 .comment__edit
 	+below(768px)
