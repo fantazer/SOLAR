@@ -101,9 +101,14 @@
 	background-size 250px
 	background-repeat no-repeat
 	background-position right top
-	
+.section-main-page
+	+below(768px)
+		margin-bottom 30px
+	margin-bottom 70px
 .section--grey
 	background #e1e1e1 
+.section--blue
+	background grey 
 .section--light
 	color black
 	background #ebebeb
@@ -144,3 +149,55 @@ input,textarea
 		background pink-dark
 		left -15px
 		top 5px	
+
+.ancor
+	background dark
+	+below(768px)
+		display none
+.ancor__wrap
+	flex(around)
+.ancor__el
+	width 130px
+	color white
+	flex(mid)
+	fl()
+	padding 5px
+	border-top 3px solid #e14faa
+	border-bottom 3px solid #e14faa
+	cp()
+	&:nth-child(2)
+		border-color #b2acf1
+	&:nth-child(3)
+		border-color pink
+	&:nth-child(4)
+		border-color #6c67a8
+	span
+		display block
+
+.descr-block
+	+below(768px)
+		fw()
+		fl()
+		margin-top 30px
+	flex(mid)
+.descr-block__name
+	+below(768px)
+		margin-right  0px
+	color white
+	font-family PT Sans
+	font-size 40px
+	font-weight 700
+	text-transform uppercase
+	margin-right 90px	
+.descr-block__text
+	+below(768px)
+		width 90%
+		padding 20px 10px
+		text-align center
+	color white
+	font-family PT Sans
+	font-size 14px
+	font-weight 400
+	width 60%
+	padding-top 60px	
+	padding-bottom 30px		

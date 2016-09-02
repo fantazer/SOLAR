@@ -1,75 +1,85 @@
 .header
 	.main-cont
 		//header-logo
-		.header__top
-			a(href="/")
-				img(src="img/logo-big.png", alt="").header__logo
-			.header-info
-				.header-contact
-					.header-contact__phone 
-						.icon.icon-phone-square
-						a(href="tel:+7(900)-666-55-77") +7(900)-666-55-77
-					.header-contact__email 
-						.icon.icon-envelope
-						a(href="#") email@yandex.ru
-				.header-slogan делаем умные сайты
-	//top-menu
-	.top-menu
-		.main-cont
-			.top-menu__cont
-				.top-menu__wraper
-					.top-menu__el.top-menu__service 
-						a(href="#") услуги
-						//sub-menu
-						.top-menu__sub
-							a(href="#") Создание нового сайта
-							a(href="#") Разработка Web-приложений
-							a(href="#") Поддержка сайтов
-							a(href="#") Срочная реанимация сайта
-							a(href="#") Бизнес в социальных сетях
-							a(href="#") Консалтинг
-							a(href="#") Продвижение в интернет
-					.top-menu__el
-						a(href="#") портфолио
-					.top-menu__el
-						a(href="#") контакты
-					.top-menu__el
-						a(href="#") статьи
-					.top-menu__el
-						a(href="#") сделать заказ
-					.top-menu__el.top-menu__bar
-						.icon-bars
+		.header__cont
+			.header__logo
+				a(href="/")
+					object(type="image/svg+xml" data="img/logo.svg" class="logo").header__logotip
+				.header-contact__phone 
+					.icon.icon-phone-square
+					a(href="tel:+7(900)-666-55-77") +7(900)-666-55-77
+					
+			.header__nav
+				.top-menu
+					.top-menu__cont
+						.top-menu__wraper
+							.top-menu__el.top-menu__service 
+								a(href="#") услуги
+								//sub-menu
+								.top-menu__sub
+									a(href="#") 
+										img(src="img/sub-menu-icon-7.png", alt="")
+										span Создание нового сайта
+									a(href="#") 
+										img(src="img/sub-menu-icon-6.png", alt="")
+										span Разработка Web-приложений
+									a(href="#") 
+										img(src="img/sub-menu-icon-5.png", alt="")
+										span Поддержка сайтов
+									a(href="#") 
+										img(src="img/sub-menu-icon-4.png", alt="")
+										span Срочная реанимация сайта
+									a(href="#") 
+										img(src="img/sub-menu-icon-3.png", alt="")
+										span Бизнес в социальных сетях
+									a(href="#") 
+										img(src="img/sub-menu-icon-2.png", alt="")
+										span Консалтинг
+									a(href="#") 
+										img(src="img/sub-menu-icon-1.png", alt="")
+										span Продвижение в интернет
+							.top-menu__el
+								a(href="#") портфолио
+							.top-menu__el
+								a(href="#") контакты
+							.top-menu__el
+								a(href="#") статьи
+							.top-menu__el
+								a(href="#") сделать заказ
+							.top-menu__el.top-menu__bar
+								.icon-bars
+									
+					
+					//sub-menu
+					.top-menu-order
+						.top-menu-order__info
+							.top-menu-order__el.top-menu-order__cont
+								.top-menu-order__row
+									.top-menu-order__name Телефон:
+									.top-menu-order__val +7(900)666-55-77
+								.top-menu-order__row
+									.top-menu-order__name E-mail:
+									.top-menu-order__val email@yanedx.ru 
+								.top-menu-order__row
+									.top-menu-order__name.top-menu-order__name-adr Адрес:
+									.top-menu-order__val г. Пермь, ул.Мира д. 71, офис 22
+							.top-menu-order__el.top-menu-order__time
+								.top-menu-order__row
+									.top-menu-order__name Режим работы:
+									.top-menu-order__val
+								.top-menu-order__row
+									.top-menu-order__name Будни
+									.top-menu-order__val с 10 до 19
+								.top-menu-order__row
+									.top-menu-order__name Сб, Вс
+									.top-menu-order__val Выходные
+							.top-menu-order__el.top-menu-order__smallbut
+								a(href="#").but.but-mid.but-purp Факты о нас
+								a(href="#").but.but-mid.but-purp Вакансии
+						.top-menu-order__but
+								a(href="#").but.but-lg.but-pink Заказать проект
 			.top-menu__el.top-menu__toggle
 				.icon-bars
-			//sub-menu
-			.top-menu-order
-				.top-menu-order__info
-					.top-menu-order__el.top-menu-order__cont
-						.top-menu-order__row
-							.top-menu-order__name Телефон:
-							.top-menu-order__val +7(900)666-55-77
-						.top-menu-order__row
-							.top-menu-order__name E-mail:
-							.top-menu-order__val email@yanedx.ru 
-						.top-menu-order__row
-							.top-menu-order__name Адрес:
-							.top-menu-order__val г. Пермь, ул.Мира д. 71, офис 22
-					.top-menu-order__el.top-menu-order__time
-						.top-menu-order__row
-							.top-menu-order__name Режим работы:
-							.top-menu-order__val
-						.top-menu-order__row
-							.top-menu-order__name Будни
-							.top-menu-order__val с 10 до 19
-						.top-menu-order__row
-							.top-menu-order__name Сб, Вс
-							.top-menu-order__val Выходные
-					.top-menu-order__el.top-menu-order__smallbut
-						a(href="#").but.but-mid.but-purp Факты о нас
-						a(href="#").but.but-mid.but-purp Вакансии
-				.top-menu-order__but
-						a(href="#").but.but-lg.but-pink Сделать заказ
-
 
 
 

@@ -1,14 +1,14 @@
 
 /* ###### init skrol to point  ######*/
 /* ###### bower i page-scroll-to-id  ######*/
-/*(function($){
+(function($){
     $(window).load(function(){
         $("a[rel='m_PageScroll2id']").mPageScroll2id({
-				    offset:200,
+				    offset:100,
 				    highlightClass:"left-nav-el-active"
 				});
     });
- })(jQuery);*/ 
+ })(jQuery);
 
 /* ###### init slide mobile menu  ######*/
 /* ###### bower i jQuery.mmenu  ######*/
@@ -23,6 +23,11 @@ $(function(){
 });
 $(document).ready(function(){
 
+	//Hide menu on hover
+
+	$('.top-menu__service').mouseenter(function() {
+		$('.top-menu-order').hide();
+	})
 	//animate hover menu
 	/*$('.top-menu__el').hover(
 		function(){
@@ -81,7 +86,7 @@ $(document).ready(function(){
 
 	//toggle top menu
 	hideToggle('.top-menu__bar','.top-menu-order');
-	hideToggle('.top-menu__bar','.top-menu__sub');
+	//hideToggle('.top-menu__bar','.top-menu__sub');
 	hideToggle('.top-menu__toggle','.top-menu__cont');
 	hideToggle('.galary-head__toggle','.galary-head__wraper');
 
@@ -89,7 +94,7 @@ $(document).ready(function(){
 		hideToggle('.top-menu__service','.top-menu__sub');
 	};
 	//Paralax
-	var $scene = $('.section-main').parallax();
+	//var $scene = $('.section-main').parallax();
 
 	//Slider default
 	function defaultSlider(sliderClass) {

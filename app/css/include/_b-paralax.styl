@@ -109,7 +109,7 @@
 		width 100%
 	+below(768px)
 		height 200px
-		margin-top 20px
+		margin-top 0px
 	fl()
 	flex(mid)
 	tr(all)
@@ -117,10 +117,27 @@
 	background grey
 	padding 5%
 	background-color #1f2e43
+	width 100%
 	&:hover
-		background-color #243650
-		.icon
-			color purp
+		background #243650 
+		&:before
+			content ''
+			position absolute	
+			width 100%	
+			top 0
+			left 0
+			height 1px	
+			background 	#b2acf1 
+		&:after
+			content ''
+			position absolute	
+			width 100%	
+			bottom 0
+			left 0
+			height 1px	
+			background 	#b2acf1 
+		.planet-content__smm-info
+			color #b2acf1
 	.icon
 		tr(all)
 		font-size 60px
@@ -132,28 +149,46 @@
 	text-transform uppercase
 
 .planet-content__seo-el
-	+below(1378px)
-		height 220px
+	+below(1200px)
+		height 310px
 	+below('md')
 		width 100%
 	+below(768px)
-		height 200px
+		height 210px
 		margin-top 20px
+		padding 20px
 		img
 			width 60px!important
 	fl()
 	flex(mid)
 	tr(all)
-	height 280px
+	height 350px
 	justify-content flex-start
 	//width 25%
 	background grey
-	padding 5% 3%
+	padding 50px
 	background-color #1f2e43
+	position relative	
 	&:hover
-		background-color #243650
+		background #243650 
+		&:before
+			content ''
+			position absolute	
+			width 100%
+			left 0px	
+			top 0
+			height 1px	
+			background 	#e14faa 
+		&:after
+			content ''
+			position absolute	
+			width 100%
+			left 0px	
+			bottom 0
+			height 1px	
+			background 	#e14faa 
 		.planet-content__seo-title
-			color purp
+			color #e14faa
 	.icon
 		tr(all)
 		font-size 60px
@@ -163,9 +198,59 @@
 .planet-content__seo-title
 	tr(all)
 	up()
-	font-size 18px
+	font-size 16px
 	text-align center
 	height 50px 
 .planet-content__seo-info
 	text-align center
-	width 70%
+	width 100%
+.slogan
+	+below(960px)
+		padding 120px 60px
+	+below(768px)
+		padding  120px 20px 10px 20px
+	padding 120px
+	flex(mid)
+	bgi('moon-bg.png')
+	background-position center
+	position relative
+	.but
+		margin-top 20px
+		display inline-block
+		padding 10px 25px
+		
+.rocket
+	+below(768px)
+		display none
+	position absolute
+	bottom 10%
+	right 17%
+.slogan-text
+	flex(mid)
+	fl()
+	fw()
+.slogan-text__el 
+	+below(768px)
+		font-size 26px
+		line-height 36px
+	up()
+	text-align center
+	font-size 50px
+	color white
+	font-family Helvetica 
+	line-height 70px
+.slogan-text__el--small
+	+below(768px)
+		font-size 20px
+	font-weight  100
+	font-size 35px
+
+.descr-block__link
+	color #6c67a8
+	font-family PT Sans
+	font-size 16px
+	font-style italic
+	text-decoration underline
+	display block
+	text-align right
+	margin-top 20px

@@ -1,0 +1,189 @@
+.header 
+	+below(768px)
+		padding 5px 0px
+	padding 15px 0px
+	position relative
+	.icon-bars
+		color white
+.header__top 
+	+below(768px)
+		padding-bottom 5px
+	flex(between)
+.header__logo
+	+below(768px)
+		width 100%
+//.header-contact 
+.header-contact
+	+below(768px)
+		fw()
+		.icon
+			font-size 12px
+	flex(between) 
+.header-contact__phone
+	+below(768px)
+		width 100% 
+		justify-content flex-end
+		margin-bottom 5px
+	up()
+	f()
+	align-items center
+	font-size 14px
+	.icon
+		margin-right 10px
+.header-contact__email 
+	+below(768px)
+		width 100%
+		justify-content flex-end
+	f()
+	up()
+	align-items center
+	.icon
+		margin-right 10px
+.header-slogan
+	+below(768px)
+		display none
+	color #b2acf1
+	font-size 31px
+	font-weight 400
+	up()
+.top-menu
+	background dark
+	position relative
+	margin-top 10px
+	.main-cont
+		z-index 100
+.top-menu__wraper
+	+below(768px)
+		display block
+		margin-left -10px
+	flex(between)
+.top-menu__el
+	+below(768px)
+		width 100%
+		display block
+		background grey 
+	flex-grow 1
+	flex(mid)
+	& > a
+		up()
+		padding 12px 0
+		font-size 18px
+		text-align center
+		display block
+		position relative
+	&:not(:last-child)
+		&:hover
+			background grey
+	
+.top-menu__sub
+	+below(768px)
+		position relative
+		display none
+		background dark
+		margin-left 0
+	position absolute
+	left 0
+	top 100%
+	padding 10px
+	background grey
+	display none
+	margin-left 10px
+	a
+		display block
+		padding 12px 30px
+		font-size 16px
+		tr(all)
+		&:hover
+			color #b286f9
+.top-menu__service
+	+above(768px)
+		&:hover
+			.top-menu__sub
+				display block!important
+	
+.top-menu__bar
+	+below(768px)
+		display none!important
+	cp()
+	height 100%
+	position relative
+	font-size 24px
+	line-height 12px
+	text-align center
+	padding 12px 0px
+.top-menu-order
+/*	+above(768px)
+		display block*/
+	+below(768px)
+		display none!important
+	position absolute
+	right 0
+	top 100%
+	background grey
+	padding 10px
+	width 70%
+.top-menu-order
+	display none 
+.top-menu-order__info 
+	flex(between)
+	align-items flex-start
+	color white
+.top-menu-order__el
+	padding 10px 30px
+	width 33.3333%
+.top-menu-order__row 
+	flex(between)
+	align-items flex-start
+	margin-bottom 15px
+.top-menu-order__name
+	 font-size 16px
+	 margin-right 20px
+.top-menu-order__val 
+	 font-size 16px
+	 bold()
+	 text-align right
+	 width 60%
+.top-menu-order__but
+	flex(mid)
+	fl()
+	.but
+		width 60%
+.top-menu-order__smallbut
+	fl()
+	flex(mid)
+	.but
+		width 80%
+		
+.top-menu-order__time
+	+below(1200px)
+		display none
+.top-menu-order__cont
+	+below(1200px)
+		width 100%
+.section-main__title
+	+below(768px)
+		display none 
+.top-menu__toggle
+	+below(768px)
+		flex(mid)
+		font-size 24px
+		padding 10px
+		justify-content flex-end
+		background dark!important 
+	display none
+.top-menu__cont
+	+above(768px)
+		display block!important
+	+below(768px)
+		display none
+		width 100%
+		position absolute
+		top 100%
+.header-info
+	+below(768px)
+		width 50%
+.header__top > a
+	+below(768px)
+		width 50%
+	
+	
